@@ -8,6 +8,8 @@
 	<string>com.github.wycomco.munki.firefox-de</string>
 	<key>Input</key>
 	<dict>
+		<key>LOCALE</key>
+		<string>de</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/mozilla/firefox</string>
 		<key>NAME</key>
