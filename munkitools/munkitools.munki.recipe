@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads and imports Munki tools. This recipe is based on com.github.autopkg.munki.munkitools and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.munkitools</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>http://code.google.com/p/munki/downloads/list</string>
+		<key>MUNKITOOLS_ADMIN_DESCRIPTION</key>
+		<string>Befehlszeilen-Tools für die Administration der geführten Softwareaktualisierung.</string>
+		<key>MUNKITOOLS_ADMIN_DISPLAYNAME</key>
+		<string>Geführte Softwareaktualisierung - Admin-Tools</string>
+		<key>MUNKITOOLS_ADMIN_NAME</key>
+		<string>app_munkitools_admin</string>
+		<key>MUNKITOOLS_APP_DESCRIPTION</key>
+		<string>Anwendung für die geführte Softwareaktualisierung.</string>
+		<key>MUNKITOOLS_APP_DISPLAYNAME</key>
+		<string>Geführte Softwareaktualisierung</string>
+		<key>MUNKITOOLS_APP_NAME</key>
+		<string>app_munkitools</string>
+		<key>MUNKITOOLS_CORE_DESCRIPTION</key>
+		<string>Gemeinsame Befehlszeilentools für die geführte Softwareaktualisierung.</string>
+		<key>MUNKITOOLS_CORE_DISPLAYNAME</key>
+		<string>Geführte Softwareaktualisierung - Basis-Komponenten</string>
+		<key>MUNKITOOLS_CORE_NAME</key>
+		<string>app_munkitools_core</string>
+		<key>MUNKITOOLS_LAUNCHD_DESCRIPTION</key>
+		<string>Skripte für die automatische Ausführung der geführten Softwareaktualisierung.</string>
+		<key>MUNKITOOLS_LAUNCHD_DISPLAYNAME</key>
+		<string>Geführte Softwareaktualisierung - Autostart-Skripte</string>
+		<key>MUNKITOOLS_LAUNCHD_NAME</key>
+		<string>app_munkitools_launchd</string>
+		<key>MUNKI_CATALOG</key>
+		<string>generic</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/munki</string>
+		<key>NAME</key>
+		<string>app_munki</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.munkitools</string>
+</dict>
+</plist>
