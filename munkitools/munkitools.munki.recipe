@@ -40,6 +40,27 @@
 		<string>generic/apps/munki</string>
 		<key>NAME</key>
 		<string>app_munki</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>%MUNKI_CATALOG%</string>
+			</array>
+			<key>category</key>
+			<string>Dienstprogramme</string>
+			<key>description</key>
+			<string>%MUNKITOOLS_CORE_DESCRIPTION%</string>
+			<key>display_name</key>
+			<string>%MUNKITOOLS_CORE_DISPLAYNAME%</string>
+			<key>name</key>
+			<string>%MUNKITOOLS_CORE_NAME%</string>
+			<key>requires</key>
+			<array>
+				<string>%MUNKITOOLS_LAUNCHD_NAME%</string>
+			</array>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>

@@ -24,16 +24,20 @@
 			<array>
 				<string>generic</string>
 			</array>
+			<key>category</key>
+			<string>Dienstprogramme</string>
 			<key>description</key>
 			<string>Adobe® Flash® Player für Safari, Firefox und Opera.</string>
+			<key>developer</key>
+			<string>Adobe</string>
 			<key>display_name</key>
 			<string>Adobe Flash Player</string>
+			<key>minimum_os_version</key>
+			<string>10.6.8</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
-			<key>minimum_os_version</key>
-			<string>10.6.8</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>

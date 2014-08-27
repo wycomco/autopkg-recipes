@@ -18,8 +18,12 @@
 			<array>
 				<string>generic</string>
 			</array>
+			<key>category</key>
+			<string>Video</string>
 			<key>description</key>
 			<string>Programm zum Kopieren und Komprimieren von DVD-Filmen</string>
+			<key>developer</key>
+			<string>HandBrake Community</string>
 			<key>display_name</key>
 			<string>Handbrake</string>
 			<key>name</key>

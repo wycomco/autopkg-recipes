@@ -18,8 +18,12 @@
 			<array>
 				<string>generic</string>
 			</array>
+			<key>category</key>
+			<string>Produktivität</string>
 			<key>description</key>
 			<string>Ein quelloffener Client für folgende Dienste: FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files und Google Docs.</string>
+			<key>developer</key>
+			<string>Cyberduck</string>
 			<key>display_name</key>
 			<string>Cyberduck</string>
 			<key>name</key>

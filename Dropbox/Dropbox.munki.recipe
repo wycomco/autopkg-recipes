@@ -18,8 +18,12 @@
 			<array>
 				<string>generic</string>
 			</array>
+			<key>category</key>
+			<string>Produktivität</string>
 			<key>description</key>
 			<string>Dropbox ist ein kostenloser Cloud-Service zum synchronisieren von Dateien auf verschiedenen Geräten.</string>
+			<key>developer</key>
+			<string>Dropbox</string>
 			<key>display_name</key>
 			<string>Dropbox</string>
 			<key>name</key>

@@ -18,8 +18,12 @@
 			<array>
 				<string>generic</string>
 			</array>
+			<key>category</key>
+			<string>Musik</string>
 			<key>description</key>
 			<string>Client für den Musik-Streaming-Dienst von Spotify</string>
+			<key>developer</key>
+			<string>Spotify</string>
 			<key>display_name</key>
 			<string>Spotify</string>
 			<key>name</key>

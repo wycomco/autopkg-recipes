@@ -18,8 +18,12 @@
 			<array>
 				<string>generic</string>
 			</array>
+			<key>category</key>
+			<string>Soziale Netze</string>
 			<key>description</key>
 			<string>Software fuer den VoIP- und Instant-Messaging-Dienst Skype von Microsoft. Eigenes Skype-Konto erforderlich.</string>
+			<key>developer</key>
+			<string>Microsoft</string>
 			<key>display_name</key>
 			<string>Skype</string>
 			<key>name</key>

@@ -18,8 +18,12 @@
 			<array>
 				<string>generic</string>
 			</array>
+			<key>category</key>
+			<string>Produktivität</string>
 			<key>description</key>
 			<string>Webbrowser von Google</string>
+			<key>developer</key>
+			<string>Google</string>
 			<key>display_name</key>
 			<string>Google Chrome</string>
 			<key>name</key>

@@ -18,8 +18,12 @@
 			<array>
 				<string>generic</string>
 			</array>
+			<key>category</key>
+			<string>Video</string>
 			<key>description</key>
 			<string>Programm für die Wiedergabe zahlreicher Video- und Audio-Formate</string>
+			<key>developer</key>
+			<string>VideoLAN</string>
 			<key>display_name</key>
 			<string>VLC Media Player</string>
 			<key>name</key>

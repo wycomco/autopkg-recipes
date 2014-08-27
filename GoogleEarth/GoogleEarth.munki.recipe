@@ -18,8 +18,12 @@
 			<array>
 				<string>generic</string>
 			</array>
+			<key>category</key>
+			<string>Bildung</string>
 			<key>description</key>
 			<string>Google Earth App</string>
+			<key>developer</key>
+			<string>Google</string>
 			<key>display_name</key>
 			<string>Google Earth</string>
 			<key>name</key>
