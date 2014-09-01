@@ -64,6 +64,8 @@
 			</array>
 		</dict>
 	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.0</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -77,7 +79,7 @@
 				<string>%VERSION%</string>
 			</dict>
 			<key>Processor</key>
-			<string>MSOffice2011UpdateInfoProvider</string>
+			<string>com.github.autopkg.munki.Office2011Updates/MSOffice2011UpdateInfoProvider</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
