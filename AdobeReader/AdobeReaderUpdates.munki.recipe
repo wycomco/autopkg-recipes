@@ -4,10 +4,10 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads the latest update for Adobe Reader and imports into Munki.
-This recipe is based on com.github.autopkg.munki.AdobeReader with a customized URLProvider to respect the problem, that only English versions are delivered as full applications. Other languages need to update the application. This recipes was built by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
+This recipe is based on com.github.autopkg.munki.AdobeReader with a customized URLProvider to respect the problem, that only English versions are delivered as full applications. Other languages need to update the application.
 </string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.AdobeReaderMultilanguage</string>
+	<string>com.github.wycomco.munki.AdobeReaderUpdates</string>
 	<key>Input</key>
 	<dict>
 		<key>LANGUAGE</key>
@@ -52,7 +52,7 @@ This recipe is based on com.github.autopkg.munki.AdobeReader with a customized U
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.wycomco.download.AdobeReaderMultilanguage</string>
+	<string>com.github.wycomco.download.AdobeReaderUpdates</string>
 	<key>Process</key>
 	<array>
 		<dict>
