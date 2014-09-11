@@ -21,7 +21,7 @@
 			<key>category</key>
 			<string>Video</string>
 			<key>description</key>
-			<string>Programm für die Wiedergabe zahlreicher Video- und Audio-Formate</string>
+			<string>Der VLC media player (anfänglich „VideoLAN Client“ genannt) ist ein portabler, freier Medienabspieler sowohl für diverse Audio-, Videocodecs und Dateiformate als auch DVDs, Video-CDs und unterstützt unterschiedliche Streaming-Protokolle und Schnittstellen für TV-Karten (z. B. DirectShow und BDA). Er kann auch als Server zum Streaming in Uni- oder Multicast, in IPv4 und IPv6-Netzen oder als Transcoder für die unterstützten Video- und Audio-Formate verwendet werden.</string>
 			<key>developer</key>
 			<string>VideoLAN</string>
 			<key>display_name</key>

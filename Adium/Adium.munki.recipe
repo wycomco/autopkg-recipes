@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads latest version of Adium and imports into a Munki repo. This recipe is based on com.github.autopkg.munki.Adium and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.Adium</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/adium</string>
+		<key>NAME</key>
+		<string>app_adium</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>category</key>
+			<string>Soziale Netze</string>
+			<key>description</key>
+			<string>Adium ist ein freier Multi-Protokoll-Client für Mac OS X, der unter der GNU General Public License veröffentlicht wurde.
+
+Adium greift auf die Bibliotheken „libezv“ (für Bonjour) und „libpurple“ (für alle anderen Protokolle) zurück. Libpurple wird in erster Linie von den Entwicklern von Pidgin, dem GTK+-Frontend von libpurple, instand gehalten. Das Adium-Team arbeitet also hauptsächlich an der grafischen Benutzeroberfläche. (Quelle: Wikipedia)</string>
+			<key>developer</key>
+			<string>Adium-Team</string>
+			<key>display_name</key>
+			<string>Adium</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.Adium</string>
+</dict>
+</plist>

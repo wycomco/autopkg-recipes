@@ -21,7 +21,9 @@
 			<key>category</key>
 			<string>Soziale Netze</string>
 			<key>description</key>
-			<string>Software fuer den VoIP- und Instant-Messaging-Dienst Skype von Microsoft. Eigenes Skype-Konto erforderlich.</string>
+			<string>Skype (englische Aussprache [skaɪp]) ist eine kostenlose IP-Telefonie-Software des Unternehmens Microsoft mit Instant-Messaging-Funktion, Dateiübertragung und Videotelefonie, die ein proprietäres Netzwerkprotokoll verwendet.
+
+Sie ermöglicht das kostenlose Telefonieren zwischen Skype-Kunden via Internet. Internettelefonate mit Kunden anderer Anbieter sind nicht möglich. Verbindungen ins Festnetz und zu Mobiltelefonen sind gebührenpflichtig („SkypeOut“). Um Anrufe aus dem herkömmlichen Telefonnetz entgegenzunehmen, ist der Kauf einer Online-Rufnummer erforderlich („SkypeIn“). Die Einrichtung einer solchen Rufnummer ist für rund 25 Länder möglich, ohne physisch in diesen Ländern anwesend zu sein. Für einige Länder ist aus rechtlichen Gründen der Nachweis des Wohnsitzes (aber nicht der tatsächlichen Anwesenheit dort) erforderlich; das betrifft gegenwärtig Frankreich, Deutschland, die Niederlande, die Schweiz und Südkorea. In der aktuellen Version für Microsoft Windows und Mac OS X sind Konferenzschaltungen mit bis zu 25 Gesprächsteilnehmern möglich. (Quelle: Wikipedia)</string>
 			<key>developer</key>
 			<string>Microsoft</string>
 			<key>display_name</key>

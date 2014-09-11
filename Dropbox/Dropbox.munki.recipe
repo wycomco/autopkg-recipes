@@ -21,7 +21,7 @@
 			<key>category</key>
 			<string>Produktivität</string>
 			<key>description</key>
-			<string>Dropbox ist ein kostenloser Cloud-Service zum synchronisieren von Dateien auf verschiedenen Geräten.</string>
+			<string>Dropbox (engl. to drop = fallen lassen) ist eine 2007 eingeführte Internet-Dienstleistung, die Daten von einem PC oder Smartphone auf einem entfernten Rechnersystem in einer sogenannten „Cloud“ speichert. Das Unternehmen, Dropbox Inc., nutzt für diesen Filehosting oder auch Cloud-Storage genannten Dienst, für den Anwender nicht erkennbar, die Massenspeicher von Amazon. Hat man eine Datei zur Dropbox hochgeladen, kann man sie von jedem ans Internet angeschlossenen Computer abrufen. Das System dient der Online-Datenspeicherung, aber auch dem Austausch von Daten zwischen verschiedenen Personen. Der Zugriff auf die Dropbox ist im Browser und mit Hilfe von Anwendungen (Apps) für verschiedene Betriebssysteme möglich. Dropbox Inc. hat seinen Sitz in den Vereinigten Staaten. Kritisiert wird vor allem ein unverschlüsselter Zugang für Unternehmensmitarbeiter und somit Angreifbarkeit seitens der Geheimdienste, auch im Zusammenhang des Projekts Prism. (Quelle: Wikipedia)</string>
 			<key>developer</key>
 			<string>Dropbox</string>
 			<key>display_name</key>

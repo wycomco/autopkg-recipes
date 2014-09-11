@@ -21,7 +21,7 @@
 			<key>category</key>
 			<string>Musik</string>
 			<key>description</key>
-			<string>Client für den Musik-Streaming-Dienst von Spotify</string>
+			<string>Spotify (engl. to spot ‚entdecken‘ und to identify ‚identifizieren‘) ist ein Musikstreaming-Dienst, der es ermöglicht, DRM-geschützte Musik aus einer Reihe von großen Plattenlabels wie Sony, EMI, Warner Music Group und Universal sowie zahlreicher kleiner Labels zu hören. Der Dienst wurde im Oktober 2008 von dem schwedischen Start-up Spotify AB gestartet. Er ist in vielen Ländern der Welt verfügbar. (Quelle: Wikipedia)</string>
 			<key>developer</key>
 			<string>Spotify</string>
 			<key>display_name</key>

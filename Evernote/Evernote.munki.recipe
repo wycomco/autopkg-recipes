@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the current release version of Evernote and imports into Munki.
+
+Alternate Beta URL that can be used for SPARKLE_FEED_URL:
+http://update.evernote.com/prerelease/ENMac/EvernoteMacUpdate.xml
+
+This recipe is based on com.github.autopkg.munki.Evernote and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
+</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.Evernote</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/evernote</string>
+		<key>NAME</key>
+		<string>app_evernote</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>http://update.evernote.com/public/ENMac/EvernoteMacUpdate.xml</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>category</key>
+			<string>Produktivität</string>
+			<key>description</key>
+			<string>Evernote ist eine Software- und Webanwendung, die das Sammeln, Ordnen und Finden von Notizen, Dokumenten und Fotos in verschiedenen Formaten unterstützt. Es ist ein Mitbewerber zu Microsoft OneNote, DevonThink, Apples iCloud, Barebones Software Yojimbo, Journler, und Circus Ponies NoteBook.
+
+Das Unternehmen wurde 2007/08 von dem gebürtigen Aserbaidschaner Stepan Patschikow (* 1950) gegründet. Der Web-Service startete im Juni 2008 und erreichte nach 3 Jahren bereits 11 Millionen User. Derzeitiger CEO ist Phil Libin. (Quelle: Wikipedia)</string>
+			<key>display_name</key>
+			<string>Evernote</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.Evernote</string>
+</dict>
+</plist>
