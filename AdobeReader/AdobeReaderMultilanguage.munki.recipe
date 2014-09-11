@@ -30,7 +30,7 @@ This recipe is based on com.github.autopkg.munki.AdobeReader with a customized U
 			<key>category</key>
 			<string>Produktivität</string>
 			<key>description</key>
-			<string>PDF-Viewer von Adobe</string>
+			<string>Adobe Reader (früher Acrobat Reader) ist ein Computerprogramm des Unternehmens Adobe zum Anzeigen von PDF-Dokumenten, also ein Dateibetrachter. Es ist Teil der Adobe-Acrobat-Produktfamilie. (Quelle: Wikipedia)</string>
 			<key>developer</key>
 			<string>Adobe</string>
 			<key>display_name</key>

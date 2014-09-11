@@ -21,7 +21,7 @@
 			<key>category</key>
 			<string>Video</string>
 			<key>description</key>
-			<string>Programm zum Kopieren und Komprimieren von DVD-Filmen</string>
+			<string>HandBrake ist eine freie Software zur Transkodierung von Videodateien. Ursprünglich für BeOS entwickelt, ist das Programm heute für Mac OS X, Windows und Linux erhältlich. Es wird in Objective-C, C und C# entwickelt und als freie Software unter den Bedingungen der Version 3 der GNU General Public License (GPL) veröffentlicht. (Quelle: Wikipedia)</string>
 			<key>developer</key>
 			<string>HandBrake Community</string>
 			<key>display_name</key>

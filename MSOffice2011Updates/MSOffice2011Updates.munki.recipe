@@ -52,6 +52,8 @@
 			</array>
 			<key>category</key>
 			<string>Produktivität</string>
+			<key>description</key>
+			<string>Update für Microsoft Office 2011 (Word, Excel, Powerpoint und Outlook)</string>
 			<key>developer</key>
 			<string>Microsoft</string>
 			<key>requires</key>

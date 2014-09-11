@@ -21,7 +21,7 @@
 			<key>category</key>
 			<string>Bildung</string>
 			<key>description</key>
-			<string>Google Earth App</string>
+			<string>Google Earth ist eine in der Grundform unentgeltliche Software der Google Inc. und stellt einen virtuellen Globus dar. Sie ist unter den Betriebssystemen MS Windows (XP, Vista, 7, 8), Mac OS X (ab 10.3.9) und Linux verfügbar und durch die Linux-Emulation auch unter BSD-Derivaten lauffähig. Sie kann Satelliten- und Luftbilder unterschiedlicher Auflösung mit Geodaten überlagern und auf einem digitalen Höhenmodell der Erde zeigen. (Quelle: Wikipedia)</string>
 			<key>developer</key>
 			<string>Google</string>
 			<key>display_name</key>
