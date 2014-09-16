@@ -11,7 +11,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/plugins/adobe/flashplayer</string>
 		<key>NAME</key>
-		<string>flashplayer</string>
+		<string>gen_app_multi_flashplayer</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>

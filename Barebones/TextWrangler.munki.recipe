@@ -12,7 +12,7 @@ the command-line tools. This recipe is based on com.github.autopkg.munki.textwra
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/barebones/textwrangler</string>
 		<key>NAME</key>
-		<string>app_textwrangler</string>
+		<string>gen_app_en_textwrangler</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>

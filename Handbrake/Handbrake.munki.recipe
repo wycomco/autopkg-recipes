@@ -11,7 +11,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/handbrake</string>
 		<key>NAME</key>
-		<string>app_handbrake</string>
+		<string>gen_app_en_handbrake</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>

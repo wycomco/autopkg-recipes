@@ -11,7 +11,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/dropbox</string>
 		<key>NAME</key>
-		<string>app_dropbox</string>
+		<string>gen_app_multi_dropbox</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>

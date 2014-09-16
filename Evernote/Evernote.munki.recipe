@@ -17,7 +17,7 @@ This recipe is based on com.github.autopkg.munki.Evernote and customized by wyco
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/evernote</string>
 		<key>NAME</key>
-		<string>app_evernote</string>
+		<string>gen_app_multi_evernote</string>
 		<key>SPARKLE_FEED_URL</key>
 		<string>http://update.evernote.com/public/ENMac/EvernoteMacUpdate.xml</string>
 		<key>pkginfo</key>
