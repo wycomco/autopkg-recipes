@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads Firefox disk image and imports into Munki. This recipe is based on com.github.autopkg.munki.firefox-rc-de and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.firefox-de</string>
+	<key>Input</key>
+	<dict>
+		<key>LOCALE</key>
+		<string>de</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/mozilla/firefox</string>
+		<key>NAME</key>
+		<string>gen_app_de_firefox</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>category</key>
+			<string>Produktivität</string>
+			<key>description</key>
+			<string>Mozilla Firefox (amerikanisch-englische Aussprache [moʊˈzɪlə ˈfaɪɹfɑks]), auch kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht und gehörte im September 2013 mit einem weltweiten Marktanteil von etwa 18 Prozent zu den drei am häufigsten genutzten Webbrowsern. (Quelle: Wikipedia)</string>
+			<key>developer</key>
+			<string>Mozilla Foundation</string>
+			<key>display_name</key>
+			<string>Mozilla Firefox</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.firefox-rc-en_US</string>
+</dict>
+</plist>
