@@ -3,9 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads and imports version 2 of the Munki tools.
-As long as there is not yet an official release of version 2, DOWNLOAD_URL
-simply points to that of the latest auto-build:
+	<string>Downloads and imports version 2 of the Munki tools via
+the official releases listing on GitHub. Note that this
+will likely include preview releases.
+
+For an alternate (possibly unstable) release, override
+DOWNLOAD_URL to a direct pkg download URL, such as:
+
 https://munkibuilds.org/munkitools2-latest.pkg
 
 This recipe is based on com.github.autopkg.munki.munkitools2 and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
@@ -13,8 +17,6 @@ This recipe is based on com.github.autopkg.munki.munkitools2 and customized by w
 	<string>com.github.wycomco.munki.munkitools2</string>
 	<key>Input</key>
 	<dict>
-		<key>DOWNLOAD_URL</key>
-		<string>https://munkibuilds.org/munkitools2-latest.pkg</string>
 		<key>MUNKITOOLS_ADMIN_DESCRIPTION</key>
 		<string>Befehlszeilen-Tools für die Administration der geführten Softwareaktualisierung.</string>
 		<key>MUNKITOOLS_ADMIN_DISPLAYNAME</key>
