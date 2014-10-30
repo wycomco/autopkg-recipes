@@ -14,6 +14,8 @@
 		<string>generic/apps/mozilla/firefox</string>
 		<key>NAME</key>
 		<string>app_firefox</string>
+		<key>RELEASE</key>
+		<string>latest</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
