@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads updates for Adobe Acrobat Pro X or XI and imports them 
+into Munki. It will also set the appropriate 'requires' item for the 
+previous update in the Munki pkginfo, if applicable. Historically, 
+quarterly scheduled updates have been cumulative for Pro X/XI, and
+out-of-cycle updates have not.
+
+The name(s) in update_for in the pkginfo should be set to the name
+of your base Adobe Acrobat Pro X or XI installer item in your Munki repo.
+
+MAJOR_VERSION can be '10', '11', corresponding to Pro X, Pro XI, 
+etc. You can override this recipe multiple times for different
+values of MAJOR_VERSION.
+
+VERSION can be a specific update version, ie. '10.1.6', or the 
+default, 'latest'.
+
+This recipe is based on com.github.autopkg.munki.AdobeAcrobatProXUpdate and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+	<key>Identifier</key>
+	<string>com.github.autopkg.munki.AdobeAcrobatProXUpdate</string>
+	<key>Input</key>
+	<dict>
+		<key>MAJOR_VERSION</key>
+		<string>11</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/adobe/acrobatxi</string>
+		<key>NAME</key>
+		<string>upd_acrobatxi</string>
+		<key>VERSION</key>
+		<string>latest</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Adobe Acrobat Pro.app</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>description</key>
+			<string>Adobe Acrobat Pro XI ist die offizielle Anwendung von Adobe zur Erstellung von PDF-Dokumenten.</string>
+			<key>display_name</key>
+			<string>Adobe Acrobat Pro XI Update</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>update_for</key>
+			<array>
+				<string>app_acrobatxi</string>
+			</array>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.AdobeAcrobatProXUpdate</string>
+</dict>
+</plist>
