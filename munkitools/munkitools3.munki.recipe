@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Note: munkitools does not include a code signature. If your
+organization requires code signature, it is recommend to internally sign
+the application.
+
+Downloads and imports version 3 of the Munki tools via
+the official releases listing on GitHub. You can set INCLUDE_PRERELEASES
+to any value to have this recipe pull prerelease versions.
+
+Note that Munki 3 includes an additional component pkg, munkitools_app_usage.
+This recipe imports this to the Munki with the appropriate 'requires' key,
+however as it is considered an optional component, this recipe does not
+add it as an update_for any Munki component. Admins should add
+munkitools_app_usage to a manifest manually if its installation on clients
+is desired.
+
+This recipe cannot be overridden to pull a download from an
+alternate location such as munkibuilds.org - it will only download the
+official releases. For this, use the munkitools2-autobuild.munki
+recipe with a manually-provided DOWNLOAD_URL variable.
+
+The GitHubReleasesInfoProvider processor used by this recipe also
+respects an input variable: 'sort_by_highest_tag_names', which
+if set, will ignore the post dates of the releases and instead sort
+descending by tag names according to LooseVersion semantics.
+
+MUNKI_ICON should be overridden with your icon name.
+
+This recipe is based on com.github.autopkg.munki.munkitools3 and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
+</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.munkitools3</string>
+	<key>Input</key>
+	<dict>
+		<key>INCLUDE_PRERELEASES</key>
+		<string></string>
+		<key>MUNKITOOLS_ADMIN_DESCRIPTION</key>
+		<string>Admin-Tools für die Geführte Softwareaktualisierung. Diese Tools sind nicht zwingend für den Betrieb erforderlich, ermöglichen aber weitergehende administrative Aufgaben vom Client-Rechner aus.</string>
+		<key>MUNKITOOLS_ADMIN_DISPLAYNAME</key>
+		<string>Geführte Softwareaktualisierung: Admin-Tools</string>
+		<key>MUNKITOOLS_ADMIN_NAME</key>
+		<string>app_munkitools_admin</string>
+		<key>MUNKITOOLS_APP_DESCRIPTION</key>
+		<string>Die Benutzeroberfläche für die Geführte Softwareaktualisierung.</string>
+		<key>MUNKITOOLS_APP_DISPLAYNAME</key>
+		<string>Geführte Softwareaktualisierung</string>
+		<key>MUNKITOOLS_APP_NAME</key>
+		<string>app_munkitools</string>
+		<key>MUNKITOOLS_APP_USAGE_DESCRIPTION</key>
+		<string>Erfassung von Statistiken über die Nutzung der Geführten Softwareaktualisierung.</string>
+		<key>MUNKITOOLS_APP_USAGE_DISPLAYNAME</key>
+		<string>Geführte Softwareaktualisierung: Nutzungs-Statistiken</string>
+		<key>MUNKITOOLS_APP_USAGE_NAME</key>
+		<string>app_munkitools_app_usage</string>
+		<key>MUNKITOOLS_CORE_DESCRIPTION</key>
+		<string>Gemeinsame Befehlszeilentools für die Geführte Softwareaktualisierung</string>
+		<key>MUNKITOOLS_CORE_DISPLAYNAME</key>
+		<string>Geführte Softwareaktualisierung – Basis-Komponenten</string>
+		<key>MUNKITOOLS_CORE_NAME</key>
+		<string>app_munkitools_core</string>
+		<key>MUNKITOOLS_LAUNCHD_DESCRIPTION</key>
+		<string>Skripte für die automatische Ausführung der geführten Softwareaktualisierung.</string>
+		<key>MUNKITOOLS_LAUNCHD_DISPLAYNAME</key>
+		<string>Geführte Softwareaktualisierung - Autostart-Skripte</string>
+		<key>MUNKITOOLS_LAUNCHD_NAME</key>
+		<string>app_munkitools_launchd</string>
+		<key>MUNKI_CATALOG</key>
+		<string>generic</string>
+		<key>MUNKI_CATEGORY</key>
+		<string>Dienstprogramme</string>
+		<key>MUNKI_DEVELOPER</key>
+		<string>The Munki Project</string>
+		<key>MUNKI_ICON</key>
+		<string>app_munkitools</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/munki</string>
+		<key>NAME</key>
+		<string>app_munki</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.5.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.munkitools3</string>
+</dict>
+</plist>

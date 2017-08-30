@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads Adobe Reader DC and imports it to Munki. This recipe is based on com.github.autopkg.munki.AdobeReaderDC and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.AdobeReaderDC</string>
+	<key>Input</key>
+	<dict>
+		<key>LANGUAGE</key>
+		<string>German</string>
+		<key>MAJOR_VERSION</key>
+		<string>AcrobatDC</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/adobe/adobereader</string>
+		<key>NAME</key>
+		<string>app_adobereaderdc</string>
+		<key>OS_VERSION</key>
+		<string>10.9.0</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Adobe Reader.app</string>
+				<string>Adobe Acrobat Reader DC.app</string>
+				<string>Adobe Acrobat Pro.app</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>description</key>
+			<string>Adobe Acrobat Reader DC ist die Standardlösung für die zuverlässige Anzeige, Druckausgabe und Kommentierung von PDF-Dokumenten. Und dank der Integration mit Adobe Document Cloud vereinfacht die Applikation zudem die Arbeit mit PDFs auf dem Desktop und mobilen Endgeräten.</string>
+			<key>display_name</key>
+			<string>Adobe Acrobat Reader DC</string>
+			<key>minimum_os_version</key>
+			<string>10.9.0</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>preinstall_script</key>
+			<string>#!/bin/sh
+if [ -e "/Applications/Adobe Acrobat Reader DC.app" ]; then
+rm -r "/Applications/Adobe Acrobat Reader DC.app"
+fi
+exit 0
+            </string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.AdobeReaderDC</string>
+</dict>
+</plist>

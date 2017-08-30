@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest Adobe AIR installer and repackages it for unattended, silent installation, then imports into Munki.
+Based on jamesz's work here: https://github.com/jamesez/automunki/tree/master/adobe-air
+
+This recipe is based on com.github.autopkg.munki.AdobeAIR and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.AdobeAIR</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/plugins/adobe/adobeair</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>description</key>
+			<string>AIR (Abkürzung für englisch Adobe Integrated Runtime; häufig auch Adobe Air genannt) ist eine von Adobe Systems entwickelte, plattformunabhängige Laufzeitumgebung, die es ermöglicht, Webanwendungen wie lokal installierte Anwendungssoftware zu benutzen und damit die Vorteile von beidem zu einer Rich Internet Application (RIA) zu verbinden. AIR-Anwendungen können direkt aus dem World Wide Web installiert und gestartet werden und sind wie lokal installierte Anwendungssoftware ohne einen Webbrowser selbständig auf dem lokalen Rechner ausführbar. Während das Internet das wichtigste Verteilungsmedium für AIR-basierte Anwendungen darstellt, ist die Abhängigkeit der Anwendungen von einer Internetverbindung von ihrer Funktion abhängig. (Quelle: Wikipedia)</string>
+			<key>display_name</key>
+			<string>Adobe AIR</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.6.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.AdobeAIR</string>
+</dict>
+</plist>
