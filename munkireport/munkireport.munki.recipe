@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads latest Munkireport installer and imports into a Munki repo.
+      By default it will package all modules that are defined on the server. You can override the modules by defining them below in the modules array. This recipe is based on com.github.munkireport.autopkg.munki and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language. Additionally it sets the default inventory server for internal use.
+    </string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.autopkg</string>
+	<key>Input</key>
+	<dict>
+		<key>BASEURL</key>
+		<string>https://inventory.wycomco.de/mr</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/plugins/munkireport-php</string>
+		<key>NAME</key>
+		<string>munkireport</string>
+		<key>modules</key>
+		<array/>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>description</key>
+			<string>Munkireport-PHP ist eine Software, mit der macOS-Systeme automatisiert und effizient inventarisiert werden können. Dieser Client bindet den Computer an die entsprechende Server-Komponenten und sorgt fortan für regelmäßige Aktualsierungen der Inventarlisten.</string>
+			<key>display_name</key>
+			<string>MunkiReport-PHP</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.munkireport.autopkg.munki</string>
+</dict>
+</plist>
