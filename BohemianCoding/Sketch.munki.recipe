@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads latest version of Sketch and imports it into Munki.
+	
+	This recipe is based on com.github.foigus.munki.Sketch and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
+	</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.Sketch</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/bohemiancoding</string>
+		<key>NAME</key>
+		<string>app_sketch</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>category</key>
+			<string>Grafik und Design</string>
+			<key>description</key>
+			<string>Sketch ist ein Design-Toolkit, mit dessen Hilfe Sie Ihre beste Arbeit erstellen können – von Ihren ersten Ideen bis hin zum fertigen Kunstwerk.</string>
+			<key>developer</key>
+			<string>Bohemian Coding</string>
+			<key>display_name</key>
+			<string>Sketch</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.foigus.munki.Sketch</string>
+</dict>
+</plist>

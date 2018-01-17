@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest &apos;Slack&apos; and imports into Munki.
+	
+	This recipe is based on com.github.killahquam.munki.slack and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
+	</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.slack</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>app_slack</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/slack</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>description</key>
+			<string>Slack ist ein webbasierter Instant-Messaging-Dienst des US-amerikanischen Unternehmens Slack Technologies zur Kommunikation innerhalb von Arbeitsgruppen.</string>
+			<key>display_name</key>
+			<string>Slack</string>
+			<key>category</key>
+			<string>Soziale Netze</string>
+			<key>developer</key>
+			<string>Slack</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.killahquam.munki.slack</string>
+</dict>
+</plist>
