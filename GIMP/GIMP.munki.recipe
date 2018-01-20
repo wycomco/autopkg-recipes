@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest version of GIMP from gimp.org and imports into Munki.
+	
+	This recipe is based on io.github.hjuutilainen.munki.GIMP and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+	<key>Identifier</key>
+	<string>io.github.wycomco.munki.GIMP</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>app_gimp</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/gimp</string>
+		<key>MUNKI_CATEGORY</key>
+		<string>Grafik und Design</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Gimp</string>
+				<string>GIMP</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>category</key>
+			<string>%MUNKI_CATEGORY%</string>
+			<key>description</key>
+			<string>GIMP ist ein kostenloses und freies pixelbasiertes Grafikprogramm. GIMP ist ein Grafikprogramm, das Funktionen zum Editieren und Erstellen von Pixel- und Vektorgrafiken bietet.</string>
+			<key>developer</key>
+			<string>The GIMP Team</string>
+			<key>display_name</key>
+			<string>GIMP</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.5.2</string>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.munki.GIMP</string>
+</dict>
+</plist>
