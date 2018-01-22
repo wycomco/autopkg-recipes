@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>LANGUAGE</key>
-		<string>de-DE</string>
+		<string>de</string>
 		<key>MUNKI_CATEGORY</key>
 		<string>Produktivität</string>
 		<key>MUNKI_REPO_SUBDIR</key>
