@@ -10,12 +10,14 @@
 	<string>com.github.wycomco.munki.OpenOffice</string>
 	<key>Input</key>
 	<dict>
-		<key>NAME</key>
-		<string>OpenOffice</string>
-		<key>MUNKI_REPO_SUBDIR</key>
-		<string>generic/apps/openoffice</string>
+		<key>LANGUAGE</key>
+		<string>de-DE</string>
 		<key>MUNKI_CATEGORY</key>
 		<string>Produktivität</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/openoffice</string>
+		<key>NAME</key>
+		<string>app_openoffice</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
