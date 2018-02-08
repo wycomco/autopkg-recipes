@@ -74,7 +74,8 @@ fi
 			<string>#!/bin/sh
 echo "[config.db]" &gt; /Library/Preferences/egnyteconfig.ini
 echo "local_root=%LOCAL_ROOT% " &gt;&gt; /Library/Preferences/egnyteconfig.ini
-echo "domain=%DOMAIN%" &gt;&gt; /Library/Preferences/egnyteconfig.ini
+# Domain name will not be set.
+#echo "domain=%DOMAIN%" &gt;&gt; /Library/Preferences/egnyteconfig.ini
 echo "remote_folders=%REMOTE_FOLDERS%" &gt;&gt; /Library/Preferences/egnyteconfig.ini
 echo "sync_type=%SYNC_TYPE%" &gt;&gt; /Library/Preferences/egnyteconfig.ini
 echo "sync_all_local_folders=%SYNC_ALL_LOCAL_FOLDERS%" &gt;&gt; /Library/Preferences/egnyteconfig.ini
