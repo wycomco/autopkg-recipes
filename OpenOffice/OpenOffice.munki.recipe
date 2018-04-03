@@ -33,7 +33,7 @@
 			<key>display_name</key>
 			<string>Apache OpenOffice</string>
 			<key>name</key>
-			<string>app_openoffice</string>
+			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
 			<key>unattended_uninstall</key>
