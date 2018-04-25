@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Description</key>
+        <string>Downloads Keka and imports into Munki. This recipe is based on com.github.gerardkok.munki.Keka and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+        <key>Identifier</key>
+        <string>com.github.wycomco.munki.Keka</string>
+        <key>Input</key>
+        <dict>
+            <key>MUNKI_REPO_SUBDIR</key>
+            <string>generic/apps/keka</string>
+            <key>MUNKI_CATEGORY</key>
+            <string>Dienstprogramme</string>
+            <key>NAME</key>
+            <string>app_keka</string>
+            <key>pkginfo</key>
+            <dict>
+                <key>catalogs</key>
+                <array>
+                    <string>generic</string>
+                </array>
+                <key>category</key>
+                <string>%MUNKI_CATEGORY%</string>
+                <key>description</key>
+                <string>Keka ist ein freies Dateiarchivierungsprogramm für macOS.
+
+                Keka is a free file archiver for macOS.</string>
+                <key>developer</key>
+                <string>aOne</string>
+                <key>display_name</key>
+                <string>Keka</string>
+                <key>name</key>
+                <string>%NAME%</string>
+                <key>unattended_install</key>
+                <true/>
+            </dict>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>0.2.0</string>
+        <key>ParentRecipe</key>
+        <string>com.github.gerardkok.munki.Keka</string>
+    </dict>
+</plist>

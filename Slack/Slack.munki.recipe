@@ -22,7 +22,9 @@ This recipe is based on com.github.killahquam.munki.slack and customized by wyco
 				<string>generic</string>
 			</array>
 			<key>description</key>
-			<string>Slack ist ein webbasierter Instant-Messaging-Dienst des US-amerikanischen Unternehmens Slack Technologies zur Kommunikation innerhalb von Arbeitsgruppen.</string>
+			<string>Slack ist ein webbasierter Instant-Messaging-Dienst des US-amerikanischen Unternehmens Slack Technologies zur Kommunikation innerhalb von Arbeitsgruppen.
+			
+			Slack is a cloud-based set of proprietary team collaboration tools and services, founded by Stewart Butterfield. Slack began as an internal tool used by their company, Tiny Speck, in the development of Glitch, a now defunct online game.</string>
 			<key>display_name</key>
 			<string>Slack</string>
 			<key>category</key>

@@ -21,11 +21,9 @@
 			<key>category</key>
 			<string>Produktivität</string>
 			<key>description</key>
-			<string>Google Chrome ist ein Webbrowser, der vom Unternehmen Google Inc. entwickelt wird und seit dem 2. September 2008 verfügbar ist. Am 11. Dezember 2008 erschien die erste stabile Version. Zentrales Konzept ist die Aufteilung des Browsers in optisch und auf Prozessebene getrennte Browser-Tabs.
+			<string>Google Chrome ist ein Webbrowser, der vom Unternehmen Google Inc. entwickelt wird und seit dem 2. September 2008 verfügbar ist. Am 11. Dezember 2008 erschien die erste stabile Version. Zentrales Konzept ist die Aufteilung des Browsers in optisch und auf Prozessebene getrennte Browser-Tabs. Google Chrome baut auf der HTML-Rendering-Engine WebKit auf, seit Version 28 kommt die WebKit-Abspaltung Blink zum Einsatz. (Quelle: Wikipedia)
 
-Google Chrome baut auf der HTML-Rendering-Engine WebKit auf, seit Version 28 kommt die WebKit-Abspaltung Blink zum Einsatz.
-
-Google Chrome ist ein integraler Bestandteil des Google Chrome OS, Googles auf Linux basierendem Betriebssystem für Netbooks. (Quelle: Wikipedia)</string>
+			Google Chrome is a freeware web browser developed by Google. It was first released in September 2008, for Microsoft Windows, and was later ported to Linux, macOS, iOS and Android. (Source: Wikipedia)</string>
 			<key>developer</key>
 			<string>Google</string>
 			<key>display_name</key>

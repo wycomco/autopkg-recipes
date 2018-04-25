@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads Firefox ESR disk image and imports into Munki. This recipe is based on com.github.autopkg.munki.firefox-rc-de and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and English (US) as a default language.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.firefox-esr-en_US</string>
+	<key>Input</key>
+	<dict>
+		<key>LOCALE</key>
+		<string>en-US</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/mozilla/firefox</string>
+		<key>NAME</key>
+		<string>app_firefox_esr_en</string>
+		<key>RELEASE</key>
+		<string>esr-latest</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>description</key>
+			<string>Mozilla Firefox is a free and open-source web browser developed by Mozilla Foundation and its subsidiary, Mozilla Corporation. Firefox is available for Windows, macOS, Linux, and BSD operating systems. (Source: Wikipedia)</string>
+			<key>developer</key>
+			<string>Mozilla Foundation</string>
+			<key>display_name</key>
+			<string>Mozilla Firefox (ESR)</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.firefox-rc-en_US</string>
+</dict>
+</plist>

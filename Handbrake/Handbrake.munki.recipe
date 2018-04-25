@@ -21,7 +21,9 @@
 			<key>category</key>
 			<string>Video</string>
 			<key>description</key>
-			<string>HandBrake ist eine freie Software zur Transkodierung von Videodateien. Ursprünglich für BeOS entwickelt, ist das Programm heute für Mac OS X, Windows und Linux erhältlich. Es wird in Objective-C, C und C# entwickelt und als freie Software unter den Bedingungen der Version 3 der GNU General Public License (GPL) veröffentlicht. (Quelle: Wikipedia)</string>
+			<string>HandBrake ist eine freie Software zur Transkodierung von Videodateien. Ursprünglich für BeOS entwickelt, ist das Programm heute für Mac OS X, Windows und Linux erhältlich. Es wird in Objective-C, C und C# entwickelt und als freie Software unter den Bedingungen der Version 3 der GNU General Public License (GPL) veröffentlicht. (Quelle: Wikipedia)
+			
+			HandBrake is a free and open-source transcoder for digital video files, originally developed in 2003 by Eric Petit to make ripping a film from a DVD to a data storage device easier. Since then, it has undergone many changes and revisions. (Source: Wikipedia)</string>
 			<key>developer</key>
 			<string>HandBrake Community</string>
 			<key>display_name</key>

@@ -27,7 +27,9 @@
 			<key>category</key>
 			<string>Dienstprogramme</string>
 			<key>description</key>
-			<string>Adobe® Flash® Player ist ein Browser-Plugin für Safari, Firefox und Opera. Es ermöglicht die Darstellung von multimedialen Inhalten auf diversen Websites.</string>
+			<string>Adobe® Flash® Player ist ein Browser-Plugin für Safari, Firefox und Opera. Es ermöglicht die Darstellung von multimedialen Inhalten auf diversen Websites.
+			
+			Adobe Flash Player is freeware for using content created on the Adobe Flash platform, including viewing multimedia contents, executing rich Internet applications, and streaming audio and video.</string>
 			<key>developer</key>
 			<string>Adobe</string>
 			<key>display_name</key>

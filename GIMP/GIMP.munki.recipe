@@ -30,7 +30,9 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
-			<string>GIMP ist ein kostenloses und freies pixelbasiertes Grafikprogramm. GIMP ist ein Grafikprogramm, das Funktionen zum Editieren und Erstellen von Pixel- und Vektorgrafiken bietet.</string>
+			<string>GIMP ist ein kostenloses und freies pixelbasiertes Grafikprogramm. GIMP ist ein Grafikprogramm, das Funktionen zum Editieren und Erstellen von Pixel- und Vektorgrafiken bietet.
+			
+			GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software, you can change its source code and distribute your changes. Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done.</string>
 			<key>developer</key>
 			<string>The GIMP Team</string>
 			<key>display_name</key>

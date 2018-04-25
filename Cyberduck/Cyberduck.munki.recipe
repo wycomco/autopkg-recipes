@@ -21,13 +21,9 @@
 			<key>category</key>
 			<string>Produktivität</string>
 			<key>description</key>
-			<string>Cyberduck ist ein freier FTP-Client, ursprünglich für Mac OS X entwickelt. Am 8. März 2011 erschien Version 4.0, die auch unter Microsoft Windows lauffähig ist.
-
-Cyberduck unterstützt Verbindungen per FTP, FTP/TLS, WebDAV und SSH File Transfer Protocol sowie einfaches Hoch- und Herunterladen mittels Drag and Drop. Auch die Synchronisation von Dateien und Ordnern und das Öffnen und Bearbeiten von Dateien in einem Texteditor ist möglich. Cyberduck enthält eine Lesezeichenfunktion und unterstützt den Netzwerkstandard Bonjour sowie den Passwortmanager Schlüsselbund. Bestehende Lesezeichen aus anderen FTP-Clients, etwa FileZilla, können importiert werden.
-
-Soweit installiert, wird der Benutzer mittels Growl über den Verbindungsstatus und den Ladefortschritt informiert.
-
-Cyberduck ist in einer großen Zahl von Sprachen verfügbar, darunter unter anderem Chinesisch, Deutsch, Englisch, Französisch, Japanisch und Spanisch. (Quelle: Wikipedia)</string>
+			<string>Cyberduck ist ein freier FTP-Client, ursprünglich für Mac OS X entwickelt. Am 8. März 2011 erschien Version 4.0, die auch unter Microsoft Windows lauffähig ist. Cyberduck unterstützt Verbindungen per FTP, FTP/TLS, WebDAV und SSH File Transfer Protocol sowie einfaches Hoch- und Herunterladen mittels Drag and Drop. Auch die Synchronisation von Dateien und Ordnern und das Öffnen und Bearbeiten von Dateien in einem Texteditor ist möglich. Cyberduck enthält eine Lesezeichenfunktion und unterstützt den Netzwerkstandard Bonjour sowie den Passwortmanager Schlüsselbund. Bestehende Lesezeichen aus anderen FTP-Clients, etwa FileZilla, können importiert werden. Soweit installiert, wird der Benutzer mittels Growl über den Verbindungsstatus und den Ladefortschritt informiert. Cyberduck ist in einer großen Zahl von Sprachen verfügbar, darunter unter anderem Chinesisch, Deutsch, Englisch, Französisch, Japanisch und Spanisch. (Quelle: Wikipedia)
+			
+			Use Cyberduck as default system wide protocol handler for FTP and SFTP. Open .inetloc files and .duck bookmark files from the Finder. Notifications in system tray (Windows) and the Notification Center (Mac).</string>
 			<key>developer</key>
 			<string>Cyberduck</string>
 			<key>display_name</key>

@@ -33,7 +33,9 @@ This recipe is based on com.github.autopkg.munki.OracleJava9 and customized by w
                 <string>generic</string>
             </array>
             <key>description</key>
-            <string>Java SE Runtime Environment 9 ermöglicht das Ausführen von Java Anwendungen und Applets.</string>
+            <string>Java SE Runtime Environment 9 ermöglicht das Ausführen von Java Anwendungen und Applets.
+            
+            Java SE Runtime Environment 9 enables the execution of Java applications and applets.</string>
             <key>display_name</key>
             <string>Java 9</string>
             <key>minimum_os_version</key>

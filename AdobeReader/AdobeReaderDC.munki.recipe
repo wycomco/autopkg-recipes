@@ -31,7 +31,9 @@
 				<string>generic</string>
 			</array>
 			<key>description</key>
-			<string>Adobe Acrobat Reader DC ist die Standardlösung für die zuverlässige Anzeige, Druckausgabe und Kommentierung von PDF-Dokumenten. Und dank der Integration mit Adobe Document Cloud vereinfacht die Applikation zudem die Arbeit mit PDFs auf dem Desktop und mobilen Endgeräten.</string>
+			<string>Adobe Acrobat Reader DC ist die Standardlösung für die zuverlässige Anzeige, Druckausgabe und Kommentierung von PDF-Dokumenten. Und dank der Integration mit Adobe Document Cloud vereinfacht die Applikation zudem die Arbeit mit PDFs auf dem Desktop und mobilen Endgeräten.
+			
+			Adobe Acrobat Reader DC software is the free global standard for reliably viewing, printing, and commenting on PDF documents.</string>
 			<key>display_name</key>
 			<string>Adobe Acrobat Reader DC</string>
 			<key>minimum_os_version</key>
