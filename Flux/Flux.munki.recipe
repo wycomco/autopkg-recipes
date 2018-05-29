@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the current release version of Flux and imports into Munki.
+This recipe is based on com.github.keeleysam.recipes.Flux.munki and customized by wycomco (http://www.wycomco.de)
+to support a different naming convention for munki and German as a default language.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.flux.munki</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/flux</string>
+		<key>NAME</key>
+		<string>app_flux</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>description</key>
+			<string>f.lux ändert die Farbtemperatur des Bildschirms entsprechend der Uhrzeit. Gut geeignet für Nachtarbeiter, weniger für Bildbearbeiter.
+			
+f.lux makes your computer screen look like the room you're in, all the time. When the sun sets, it makes your computer look like your indoor lights. In the morning, it makes things look like sunlight again.
+Tell f.lux what kind of lighting you have, and where you live. Then forget about it. f.lux will do the rest, automatically.</string>
+			<key>display_name</key>
+			<string>f.lux</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.keeleysam.recipes.Flux.munki</string>
+</dict>
+</plist>
