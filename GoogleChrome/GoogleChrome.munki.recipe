@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest Google Chrome disk image and imports into Munki. This recipe is based on com.github.autopkg.munki.google-chrome and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+	<string>Downloads the latest Google Chrome disk image and imports into Munki. This recipe is based on com.github.autopkg.munki.google-chrome and customized by wycomco (http://www.wycomco.de) to support a different naming convention and German and English locales.</string>
 	<key>Identifier</key>
 	<string>com.github.wycomco.munki.google-chrome</string>
 	<key>Input</key>
@@ -18,12 +18,25 @@
 			<array>
 				<string>generic</string>
 			</array>
-			<key>category</key>
-			<string>Produktivität</string>
-			<key>description</key>
-			<string>Google Chrome ist ein Webbrowser, der vom Unternehmen Google Inc. entwickelt wird und seit dem 2. September 2008 verfügbar ist. Am 11. Dezember 2008 erschien die erste stabile Version. Zentrales Konzept ist die Aufteilung des Browsers in optisch und auf Prozessebene getrennte Browser-Tabs. Google Chrome baut auf der HTML-Rendering-Engine WebKit auf, seit Version 28 kommt die WebKit-Abspaltung Blink zum Einsatz. (Quelle: Wikipedia)
-
-			Google Chrome is a freeware web browser developed by Google. It was first released in September 2008, for Microsoft Windows, and was later ported to Linux, macOS, iOS and Android. (Source: Wikipedia)</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Produktivität</string>
+					<key>description</key>
+					<string>Google Chrome ist ein Webbrowser, der vom Unternehmen Google Inc. entwickelt wird und seit dem 2. September 2008 verfügbar ist. Am 11. Dezember 2008 erschien die erste stabile Version. Zentrales Konzept ist die Aufteilung des Browsers in optisch und auf Prozessebene getrennte Browser-Tabs. Google Chrome baut auf der HTML-Rendering-Engine WebKit auf, seit Version 28 kommt die WebKit-Abspaltung Blink zum Einsatz. (Quelle: Wikipedia)</string>
+				</dict>
+				<key>en</key>
+				<dict>
+					<key>category</key>
+					<string>Productivity</string>
+					<key>description</key>
+					<string>Google Chrome is a freeware web browser developed by Google. It was first released in September 2008, for Microsoft Windows, and was later ported to Linux, macOS, iOS and Android. (Source: Wikipedia)</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>Google</string>
 			<key>display_name</key>
