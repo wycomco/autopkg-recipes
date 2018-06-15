@@ -21,12 +21,24 @@
 			<array>
 				<string>generic</string>
 			</array>
-			<key>category</key>
-			<string>Produktivität</string>
 			<key>developer</key>
 			<string>Egnyte</string>
 			<key>description</key>
-			<string>Desktop Sync ermöglicht es Ihnen, Dateien auf Ihrem Computer zu erstellen, sie mit der Cloud zu synchronisieren und von jedem Gerät aus auf sie zuzugreifen, um sie problemlos mit anderen zu teilen.</string>
+			<string>Desktop Sync allows you to create files on your computer, to synchronize them with the cloud and access them from every device to share them seamlessly with others.</string>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Produktivität</string>
+					<key>description</key>
+					<string>Desktop Sync ermöglicht es Ihnen, Dateien auf Ihrem Computer zu erstellen, sie mit der Cloud zu synchronisieren und von jedem Gerät aus auf sie zuzugreifen, um sie problemlos mit anderen zu teilen.</string>
+				</dict>
+			</dict>
 			<key>display_name</key>
 			<string>Egnyte Desktop Sync</string>
 			<key>name</key>

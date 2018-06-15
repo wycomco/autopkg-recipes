@@ -15,7 +15,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/gimp</string>
 		<key>MUNKI_CATEGORY</key>
-		<string>Grafik und Design</string>
+		<string>Graphics and design</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
@@ -30,9 +30,19 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
-			<string>GIMP ist ein kostenloses und freies pixelbasiertes Grafikprogramm. GIMP ist ein Grafikprogramm, das Funktionen zum Editieren und Erstellen von Pixel- und Vektorgrafiken bietet.
-			
-			GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software, you can change its source code and distribute your changes. Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done.</string>
+			<string>GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software, you can change its source code and distribute your changes. Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done.</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>GIMP ist ein kostenloses und freies pixelbasiertes Grafikprogramm. GIMP ist ein Grafikprogramm, das Funktionen zum Editieren und Erstellen von Pixel- und Vektorgrafiken bietet.</string>
+					<key>category</key>
+					<string>Grafik und Design</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>The GIMP Team</string>
 			<key>display_name</key>

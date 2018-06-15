@@ -24,18 +24,28 @@
 			<array>
 				<string>generic</string>
 			</array>
-			<key>category</key>
-			<string>Dienstprogramme</string>
 			<key>description</key>
-			<string>Adobe® Flash® Player ist ein Browser-Plugin für Safari, Firefox und Opera. Es ermöglicht die Darstellung von multimedialen Inhalten auf diversen Websites.
-			
-			Adobe Flash Player is freeware for using content created on the Adobe Flash platform, including viewing multimedia contents, executing rich Internet applications, and streaming audio and video.</string>
+			<string>Adobe Flash Player is freeware for using content created on the Adobe Flash platform, including viewing multimedia contents, executing rich Internet applications, and streaming audio and video.</string>
+			<key>category</key>
+			<string>Utilites</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Adobe® Flash® Player ist ein Browser-Plugin für Safari, Firefox und Opera. Es ermöglicht die Darstellung von multimedialen Inhalten auf diversen Websites.</string>
+					<key>category</key>
+					<string>Dienstprogramme</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>Adobe</string>
 			<key>display_name</key>
 			<string>Adobe Flash Player</string>
 			<key>minimum_os_version</key>
-			<string>10.6.8</string>
+			<string>10.10.0</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

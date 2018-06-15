@@ -19,11 +19,21 @@
 				<string>generic</string>
 			</array>
 			<key>category</key>
-			<string>Musik</string>
+			<string>Music</string>
 			<key>description</key>
-			<string>Spotify (engl. to spot ‚entdecken‘ und to identify ‚identifizieren‘) ist ein Musikstreaming-Dienst, der es ermöglicht, DRM-geschützte Musik aus einer Reihe von großen Plattenlabels wie Sony, EMI, Warner Music Group und Universal sowie zahlreicher kleiner Labels zu hören. Der Dienst wurde im Oktober 2008 von dem schwedischen Start-up Spotify AB gestartet. Er ist in vielen Ländern der Welt verfügbar. (Quelle: Wikipedia)
-			
-			Spotify is a music, podcast, and video streaming service launched on 7 October 2008. It is developed and owned by Spotify Technology SA in Stockholm, Sweden. It provides DRM-protected content from record labels and media companies. (Source: Wikipedia)</string>
+			<string>Spotify is a music, podcast, and video streaming service launched on 7 October 2008. It is developed and owned by Spotify Technology SA in Stockholm, Sweden. It provides DRM-protected content from record labels and media companies. (Source: Wikipedia)</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Spotify (engl. to spot ‚entdecken‘ und to identify ‚identifizieren‘) ist ein Musikstreaming-Dienst, der es ermöglicht, DRM-geschützte Musik aus einer Reihe von großen Plattenlabels wie Sony, EMI, Warner Music Group und Universal sowie zahlreicher kleiner Labels zu hören. Der Dienst wurde im Oktober 2008 von dem schwedischen Start-up Spotify AB gestartet. Er ist in vielen Ländern der Welt verfügbar. (Quelle: Wikipedia)</string>
+					<key>category</key>
+					<string>Musik</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>Spotify</string>
 			<key>display_name</key>

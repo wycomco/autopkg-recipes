@@ -20,7 +20,7 @@ This recipe is based on io.github.hjuutilainen.munki.LibreOffice and customized 
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/libreoffice</string>
 		<key>MUNKI_CATEGORY</key>
-		<string>Produktivität</string>
+		<string>Productivity</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -30,7 +30,19 @@ This recipe is based on io.github.hjuutilainen.munki.LibreOffice and customized 
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
-			<string>LibreOffice ist eine freie Zusammenstellung gebräuchlicher Software für Arbeiten im Büro. Dazu gehören Programme zur Textverarbeitung, Tabellenkalkulation, Präsentation und zum Erstellen von Zeichnungen.</string>
+			<string>LibreOffice is a free and open source office suite, a project of The Document Foundation. It was forked from OpenOffice.org in 2010, which was an open-sourced version of the earlier StarOffice. The LibreOffice suite comprises programs for word processing, the creation and editing of spreadsheets, slideshows, diagrams and drawings, working with databases, and composing mathematical formulae. (Source: Wikipedia)</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Produktivität</string>
+					<key>description</key>
+					<string>LibreOffice ist eine freie Zusammenstellung gebräuchlicher Software für Arbeiten im Büro. Dazu gehören Programme zur Textverarbeitung, Tabellenkalkulation, Präsentation und zum Erstellen von Zeichnungen.</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>The Document Foundation</string>
 			<key>display_name</key>

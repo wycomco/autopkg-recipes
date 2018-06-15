@@ -21,7 +21,17 @@
 			<key>category</key>
 			<string>Video</string>
 			<key>description</key>
-			<string>Der VLC media player (anfänglich „VideoLAN Client“ genannt) ist ein portabler, freier Medienabspieler sowohl für diverse Audio-, Videocodecs und Dateiformate als auch DVDs, Video-CDs und unterstützt unterschiedliche Streaming-Protokolle und Schnittstellen für TV-Karten (z. B. DirectShow und BDA). Er kann auch als Server zum Streaming in Uni- oder Multicast, in IPv4 und IPv6-Netzen oder als Transcoder für die unterstützten Video- und Audio-Formate verwendet werden.</string>
+			<string>VLC media player (commonly known as VLC) is a free and open-source, portable, cross-platform media player and streaming media server developed by the VideoLAN project. VLC is available for desktop operating systems and mobile platforms, such as Android, iOS, Tizen, Windows 10 Mobile and Windows Phone. (Source: Wikipedia)</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Der VLC media player (anfänglich „VideoLAN Client“ genannt) ist ein portabler, freier Medienabspieler sowohl für diverse Audio-, Videocodecs und Dateiformate als auch DVDs, Video-CDs und unterstützt unterschiedliche Streaming-Protokolle und Schnittstellen für TV-Karten (z. B. DirectShow und BDA). Er kann auch als Server zum Streaming in Uni- oder Multicast, in IPv4 und IPv6-Netzen oder als Transcoder für die unterstützten Video- und Audio-Formate verwendet werden.</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>VideoLAN</string>
 			<key>display_name</key>

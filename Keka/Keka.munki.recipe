@@ -11,7 +11,7 @@
             <key>MUNKI_REPO_SUBDIR</key>
             <string>generic/apps/keka</string>
             <key>MUNKI_CATEGORY</key>
-            <string>Dienstprogramme</string>
+            <string>Utilities</string>
             <key>NAME</key>
             <string>app_keka</string>
             <key>pkginfo</key>
@@ -23,9 +23,19 @@
                 <key>category</key>
                 <string>%MUNKI_CATEGORY%</string>
                 <key>description</key>
-                <string>Keka ist ein freies Dateiarchivierungsprogramm für macOS.
-
-                Keka is a free file archiver for macOS.</string>
+                <string>Keka is a free file archiver for macOS.</string>
+				<key>localized_strings</key>
+				<dict>
+					<key>fallback_locale</key>
+					<string>en</string>
+					<key>de</key>
+					<dict>
+						<key>description</key>
+						<string>Keka ist ein freies Dateiarchivierungsprogramm für macOS.</string>
+						<key>category</key>
+						<string>Dienstprogramme</string>
+					</dict>
+				</dict>
                 <key>developer</key>
                 <string>aOne</string>
                 <key>display_name</key>

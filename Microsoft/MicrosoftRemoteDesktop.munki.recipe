@@ -23,9 +23,21 @@
 				<string>generic</string>
 			</array>
 			<key>category</key>
-			<string>Dienstprogramme</string>
+			<string>Utilities</string>
 			<key>description</key>
-			<string>Stellen Sie über die Microsoft-Remotedesktop-App eine Verbindung mit einem Remotecomputer oder mit virtuellen Apps und Desktops her, die Ihr Administrator verfügbar gemacht hat. Die App ermöglicht produktives Arbeiten an jedem beliebigen Ort.</string>
+			<string>Use the Microsoft Remote Desktop app to connect to a remote computer or to virtual apps and desktops your administrator has made available. The app enables productive work anywhere.</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Stellen Sie über die Microsoft-Remotedesktop-App eine Verbindung mit einem Remotecomputer oder mit virtuellen Apps und Desktops her, die Ihr Administrator verfügbar gemacht hat. Die App ermöglicht produktives Arbeiten an jedem beliebigen Ort.</string>
+					<key>category</key>
+					<string>Dienstprogramme</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>Microsoft</string>
 			<key>display_name</key>

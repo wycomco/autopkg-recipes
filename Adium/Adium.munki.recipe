@@ -19,11 +19,23 @@
 				<string>generic</string>
 			</array>
 			<key>category</key>
-			<string>Soziale Netze</string>
+			<string>Social Media</string>
 			<key>description</key>
-			<string>Adium ist ein freier Multi-Protokoll-Client für Mac OS X, der unter der GNU General Public License veröffentlicht wurde.
+			<string>Adium is a free and open source instant messaging client for macOS that supports multiple IM networks, including Windows Live Messenger, Yahoo! Messenger, Google Talk, AIM, ICQ and XMPP. It is written using macOS's Cocoa API, and it is released under the GNU General Public License and many other licenses for components that are distributed with Adium. (Source: Wikipedia)</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Soziale Netze</string>
+					<key>description</key>
+					<string>Adium ist ein freier Multi-Protokoll-Client für Mac OS X, der unter der GNU General Public License veröffentlicht wurde.
 
 Adium greift auf die Bibliotheken „libezv“ (für Bonjour) und „libpurple“ (für alle anderen Protokolle) zurück. Libpurple wird in erster Linie von den Entwicklern von Pidgin, dem GTK+-Frontend von libpurple, instand gehalten. Das Adium-Team arbeitet also hauptsächlich an der grafischen Benutzeroberfläche. (Quelle: Wikipedia)</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>Adium-Team</string>
 			<key>display_name</key>

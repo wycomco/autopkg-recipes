@@ -43,7 +43,21 @@ This recipe is based on com.github.autopkg.munki.AdobeAcrobatProXUpdate and cust
 				<string>generic</string>
 			</array>
 			<key>description</key>
-			<string>Adobe Acrobat Pro XI ist die offizielle Anwendung von Adobe zur Erstellung von PDF-Dokumenten.</string>
+			<string>Adobe Acrobat Pro XI is the official application from Adobe to create PDF documents.</string>
+			<key>category</key>
+			<string>Graphics and design</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Adobe Acrobat Pro XI ist die offizielle Anwendung von Adobe zur Erstellung von PDF-Dokumenten.</string>
+					<key>category</key>
+					<string>Grafik und Design</string>
+				</dict>
+			</dict>
 			<key>display_name</key>
 			<string>Adobe Acrobat Pro XI Update</string>
 			<key>name</key>

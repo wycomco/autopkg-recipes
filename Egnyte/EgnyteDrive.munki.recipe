@@ -21,11 +21,23 @@
 				<string>generic</string>
 			</array>
 			<key>category</key>
-			<string>Produktivität</string>
+			<string>Productivity</string>
+			<key>description</key>
+			<string>Egnyte Connect (formerly Egnyte Drive) is a service synchronizing files with the cloud.</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Produktivität</string>
+					<key>description</key>
+					<string>Egnyte Connect (ehemals Egnyte Drive) ist ein Dienst, der Daten in die Cloud synchronisiert.</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>Egnyte</string>
-			<key>description</key>
-			<string>Egnyte Connect (ehemals Egnyte Drive) ist ein Dienst, der Daten in die Cloud synchronisiert.</string>
 			<key>display_name</key>
 			<string>Egnyte Drive</string>
 			<key>name</key>

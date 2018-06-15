@@ -15,7 +15,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/sparklabs</string>
 		<key>MUNKI_CATEGORY</key>
-		<string>Dienstprogramme</string>
+		<string>Utilites</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -26,6 +26,18 @@
 			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
 			<string>Viscosity is a first class OpenVPN client that lets you secure your network with ease &amp; style.</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Viscosity ist ein erstklassiger OpenVPN-Client, der dich dein Netzwerk elegant und einfach absichern lässt.</string>
+					<key>category</key>
+					<string>Dienstprogramme</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>SparkLabs</string>
 			<key>display_name</key>

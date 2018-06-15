@@ -20,7 +20,21 @@ This recipe is based on com.github.autopkg.munki.AdobeAIR and customized by wyco
 				<string>generic</string>
 			</array>
 			<key>description</key>
-			<string>AIR (Abkürzung für englisch Adobe Integrated Runtime; häufig auch Adobe Air genannt) ist eine von Adobe Systems entwickelte, plattformunabhängige Laufzeitumgebung, die es ermöglicht, Webanwendungen wie lokal installierte Anwendungssoftware zu benutzen und damit die Vorteile von beidem zu einer Rich Internet Application (RIA) zu verbinden. AIR-Anwendungen können direkt aus dem World Wide Web installiert und gestartet werden und sind wie lokal installierte Anwendungssoftware ohne einen Webbrowser selbständig auf dem lokalen Rechner ausführbar. Während das Internet das wichtigste Verteilungsmedium für AIR-basierte Anwendungen darstellt, ist die Abhängigkeit der Anwendungen von einer Internetverbindung von ihrer Funktion abhängig. (Quelle: Wikipedia)</string>
+			<string>Adobe AIR (formerly Adobe Integrated Runtime) is a cross-platform runtime system developed by Adobe Systems for building desktop applications and mobile applications, programmed using Adobe Animate, ActionScript and optionally Apache Flex. The runtime supports installable applications on Windows, OS X and mobile operating systems including Android, iOS and BlackBerry Tablet OS. (Source: Wikipedia)</string>
+			<key>category</key>
+			<string>Utilities</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>AIR (Abkürzung für englisch Adobe Integrated Runtime; häufig auch Adobe Air genannt) ist eine von Adobe Systems entwickelte, plattformunabhängige Laufzeitumgebung, die es ermöglicht, Webanwendungen wie lokal installierte Anwendungssoftware zu benutzen und damit die Vorteile von beidem zu einer Rich Internet Application (RIA) zu verbinden. AIR-Anwendungen können direkt aus dem World Wide Web installiert und gestartet werden und sind wie lokal installierte Anwendungssoftware ohne einen Webbrowser selbständig auf dem lokalen Rechner ausführbar. Während das Internet das wichtigste Verteilungsmedium für AIR-basierte Anwendungen darstellt, ist die Abhängigkeit der Anwendungen von einer Internetverbindung von ihrer Funktion abhängig. (Quelle: Wikipedia)</string>
+					<key>category</key>
+					<string>Dienstprogramme</string>
+				</dict>
+			</dict>
 			<key>display_name</key>
 			<string>Adobe AIR</string>
 			<key>name</key>

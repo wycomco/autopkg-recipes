@@ -23,9 +23,21 @@ This recipe is based on com.github.homebysix.munki.Tunnelblick and customized by
 				<string>generic</string>
 			</array>
 			<key>description</key>
-			<string>Die Kostenlos-App Tunnelblick ist ein praktischer, einfacher OpenVPN-Client für Ihren Mac.
-
-			Tunnelblick is a free, open source graphic user interface for OpenVPN on OS X and macOS.</string>
+			<string>Tunnelblick is a free, open source graphic user interface for OpenVPN on OS X and macOS.</string>
+			<key>category</key>
+			<string>Utilities</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Die Kostenlos-App Tunnelblick ist ein praktischer, einfacher OpenVPN-Client für Ihren Mac.</string>
+					<key>category</key>
+					<string>Dienstprogramme</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>The Tunnelblick Project</string>
 			<key>display_name</key>

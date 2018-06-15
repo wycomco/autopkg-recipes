@@ -21,10 +21,22 @@
 			<array>
 				<string>generic</string>
 			</array>
-			<key>category</key>
-			<string>Grafik und Design</string>
 			<key>description</key>
-			<string>Sketch ist ein Design-Toolkit, mit dessen Hilfe Sie Ihre beste Arbeit erstellen können – von Ihren ersten Ideen bis hin zum fertigen Kunstwerk.</string>
+			<string>Sketch is a proprietary vector graphics editor for Apple's macOS, developed by the Dutch company Bohemian Coding. It won an Apple Design Award in 2012. Sketch was first released on 7 September 2010. (Source: Wikipedia)</string>
+			<key>category</key>
+			<string>Graphics and design</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Sketch ist ein Design-Toolkit, mit dessen Hilfe Sie Ihre beste Arbeit erstellen können – von Ihren ersten Ideen bis hin zum fertigen Kunstwerk.</string>
+					<key>category</key>
+					<string>Grafik und Design</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>Bohemian Coding</string>
 			<key>display_name</key>
