@@ -46,6 +46,8 @@
 			<string>Erwin Bonsma</string>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>display_name</key>
+			<string>GrandPerspective</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
