@@ -7,7 +7,7 @@
 	
 	This recipe is based on io.github.hjuutilainen.munki.GIMP and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
 	<key>Identifier</key>
-	<string>io.github.wycomco.munki.GIMP</string>
+	<string>com.github.wycomco.munki.GIMP</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
