@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+	<string>Downloads Microsoft Teams and imports it into Munki. This recipe is based on com.github.apettinen.munki.MSTeams and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+    <key>Identifier</key>
+    <string>com.github.wycomco.munki.MSTeams</string>
+    <key>ParentRecipe</key>
+    <string>com.github.apettinen.munki.MSTeams</string>
+    <key>MinimumVersion</key>
+    <string>0.6.0</string>
+    <key>Input</key>
+    <dict>
+        <key>MUNKI_NAME</key>
+        <string>app_teams</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>generic/apps/microsoft/office2016/</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Social Media</string>
+        <key>MUNKI_DEVELOPER</key>
+        <string>Microsoft</string>
+        <key>DISPLAY_NAME</key>
+        <string>Microsoft Teams</string>
+        <key>MUNKI_DESCRIPTION</key>
+        <string>Microsoft Teams is the new chat-centered workspace in Office 365. Keep all your content, tools, people, and conversations together in one place.</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>generic</string>
+            </array>
+            <key>description</key>
+            <string>%MUNKI_DESCRIPTION%</string>
+            <key>display_name</key>
+            <string>%DISPLAY_NAME%</string>
+            <key>name</key>
+            <string>%MUNKI_NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
+            <key>developer</key>
+            <string>%MUNKI_DEVELOPER%</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Microsoft Teams ist die chat-basierte Arbeitsfläche in Office 365. Behalte all deine Inhalte, Werkzeuge, Menschen und Nachrichten zusammen an einem Platz.</string>
+					<key>category</key>
+					<string>Soziale Netze</string>
+				</dict>
+			</dict>
+        </dict>
+    </dict>
+</dict>
+</plist>
