@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+	<string>Downloads the current release version of GrandPerspective and imports into Munki. This recipe is based on com.github.wardsparadox.munki.googledrivefs and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+    <key>Identifier</key>
+    <string>com.github.wycomco.munki.googledrivefs</string>
+    <key>Input</key>
+    <dict>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>generic/apps/google/drivefs</string>
+        <key>NAME</key>
+        <string>app_googledrivefs</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>generic</string>
+            </array>
+            <key>description</key>
+            <string>Drive File Stream lets you:
+• Access, search and manage files on-demand from your computer in seconds.
+• Get just the files you need and make certain files available for offline use later.
+• Access your work even quicker, as your most-used files become available in the background intelligently.
+• Avoid the risk of users downloading all of your company data to their hard drives.</string>
+            <key>display_name</key>
+            <string>Google Drive FileStream</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+            <key>category</key>
+            <string>Utilities</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Drive File Stream ermöglicht dir:
+• Zugriff, Suche und Verwaltung von Dateien auf Google Drive in Sekundenschnelle.
+• Beziehe nur die Dateien, die du brauchst und stelle gewisse Dateien für die Offlinebearbeitung später bereit.
+• Greife auf deine Arbeit sogar noch schneller zu, da deine am häufigsten verwendeten Dateien im Hintergrund bereitgestellt werden.
+• Vermeide das Risiko, dass Benutzer alle Firmendaten komplett herunterladen.</string>
+					<key>category</key>
+					<string>Dienstprogramme</string>
+				</dict>
+			</dict>
+            <key>developer</key>
+            <string>Google</string>
+            <key>blocking_applications</key>
+            <array>
+              <string>Google Drive File Stream</string>
+            </array>
+            <key>installer_choices_xml</key>
+          	<array>
+          		<dict>
+          			<key>attributeSetting</key>
+          			<integer>0</integer>
+          			<key>choiceAttribute</key>
+          			<string>selected</string>
+          			<key>choiceIdentifier</key>
+          			<string>com.google.pkg.Keystone</string>
+          		</dict>
+          	</array>
+        </dict>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.2.3</string>
+    <key>ParentRecipe</key>
+    <string>com.github.wardsparadox.munki.googledrivefs</string>
+</dict>
+</plist>
