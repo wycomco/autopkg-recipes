@@ -21,6 +21,12 @@
         <string>generic/apps/microsoft/office365</string>
         <key>pkginfo</key>
         <dict>
+            <key>blocking_applications</key>
+            <array>
+                <string>Microsoft Auto Update</string>
+                <string>Microsoft Error Reporting</string>
+                <string>Microsoft Word</string>
+            </array>
             <key>catalogs</key>
             <array>
                 <string>generic</string>
@@ -38,9 +44,17 @@
 					<key>category</key>
 					<string>Produktivität</string>
 					<key>description</key>
-					<string>Das Word, das Sie wollen. Modernste Werkzeuge zum Bearbeiten, Überprüfen und Freigeben machen das Erstellen und Polieren von Dokumenten einfach.</string>
+					<string>Das Word, das Sie wollen. Modernste Werkzeuge zum Bearbeiten, Überprüfen und Freigeben machen das Erstellen und Überarbeiten von Dokumenten einfach.</string>
 				</dict>
 			</dict>
+            <key>display_name</key>
+            <string>Microsoft Word</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+            <key>unattended_uninstall</key>
+            <true/>
         </dict>
     </dict>
     <key>MinimumVersion</key>
