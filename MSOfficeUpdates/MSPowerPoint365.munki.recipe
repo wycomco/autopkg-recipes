@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>This recipe downloads and imports the full installer pkg for Microsoft PowerPoint 365 into Munki
+    
+	This is accomplished via the Office 365 recipes from rtrouton-recipes.
+	
+    These in turn, utilise the fwlink's found on macadmins.software
+        
+    This recipe is based on com.github.dataJAR-recipes.munki.Microsoft PowerPoint 365 and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
+	</string>
+    <key>Identifier</key>
+    <string>com.github.wycomco.munki.MSPowerPoint365</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>app_powerpoint365</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>generic/apps/microsoft/office365</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>generic</string>
+            </array>
+			<key>category</key>
+			<string>Productivity</string>
+            <key>description</key>
+            <string>Communicate with confidence. PowerPoint for Mac makes it easy to create, collaborate and effectively present your ideas.</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Produktivität</string>
+					<key>description</key>
+					<string>Mit Vertrauen kommunizieren. Mit PowerPoint für Mac können Sie Ihre Ideen ganz einfach erstellen, zusammenarbeiten und effektiv präsentieren.</string>
+				</dict>
+			</dict>
+        </dict>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>1.0.0</string>
+    <key>ParentRecipe</key>
+    <string>com.github.dataJAR-recipes.munki.Microsoft PowerPoint 365</string>
+</dict>
+</plist>

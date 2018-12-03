@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>This recipe downloads and imports the full installer pkg for Microsoft Outlook 365 into Munki
+    
+	This is accomplished via the Office 365 recipes from rtrouton-recipes.
+	
+    These in turn, utilise the fwlink's found on macadmins.software
+        
+    This recipe is based on com.github.dataJAR-recipes.munki.Microsoft Outlook 365 and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
+	</string>
+    <key>Identifier</key>
+    <string>com.github.wycomco.munki.MSOutlook365</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>app_outlook365</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>generic/apps/microsoft/office365</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>generic</string>
+            </array>
+			<key>category</key>
+			<string>Productivity</string>
+            <key>description</key>
+            <string>Get a clear view of your email, calendars, contacts and even the weather to connect with others more effectively. Designed for Mac, Outlook efficiently keeps track of your digital life.</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Produktivität</string>
+					<key>description</key>
+					<string>Verschaffen Sie sich einen klaren Überblick über Ihre E-Mails, Kalender, Kontakte und sogar das Wetter, um effektiver mit anderen Kontakt aufzunehmen. Outlook wurde für Mac entwickelt und verfolgt effizient Ihr digitales Leben.</string>
+				</dict>
+			</dict>
+        </dict>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>1.0.0</string>
+    <key>ParentRecipe</key>
+    <string>com.github.dataJAR-recipes.munki.Microsoft Outlook 365</string>
+</dict>
+</plist>
