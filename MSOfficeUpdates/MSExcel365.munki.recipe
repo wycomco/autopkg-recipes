@@ -21,6 +21,12 @@
         <string>generic/apps/microsoft/office365</string>
         <key>pkginfo</key>
         <dict>
+            <key>blocking_applications</key>
+            <array>
+                <string>Microsoft Auto Update</string>
+                <string>Microsoft Error Reporting</string>
+                <string>Microsoft Excel</string>
+            </array>
             <key>catalogs</key>
             <array>
                 <string>generic</string>
@@ -41,6 +47,14 @@
 					<string>Sehen Sie Ihre Daten auf neue, intuitive Weise. Leistungsfähige Diagramme, Graphen und Tastenkombinationen machen aus Zahlenspalten wertvolle Informationen, damit Sie einfacher arbeiten können.</string>
 				</dict>
 			</dict>
+            <key>display_name</key>
+            <string>Microsoft Excel</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+            <key>unattended_uninstall</key>
+            <true/>
         </dict>
     </dict>
     <key>MinimumVersion</key>

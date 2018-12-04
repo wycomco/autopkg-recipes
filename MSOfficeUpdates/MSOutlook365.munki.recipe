@@ -21,6 +21,12 @@
         <string>generic/apps/microsoft/office365</string>
         <key>pkginfo</key>
         <dict>
+            <key>blocking_applications</key>
+            <array>
+                <string>Microsoft Auto Update</string>
+                <string>Microsoft Error Reporting</string>
+                <string>Microsoft Outlook</string>
+            </array>
             <key>catalogs</key>
             <array>
                 <string>generic</string>
@@ -41,6 +47,14 @@
 					<string>Verschaffen Sie sich einen klaren Überblick über Ihre E-Mails, Kalender, Kontakte und sogar das Wetter, um effektiver mit anderen Kontakt aufzunehmen. Outlook wurde für Mac entwickelt und verfolgt effizient Ihr digitales Leben.</string>
 				</dict>
 			</dict>
+            <key>display_name</key>
+            <string>Microsoft Outlook</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+            <key>unattended_uninstall</key>
+            <true/>
         </dict>
     </dict>
     <key>MinimumVersion</key>
