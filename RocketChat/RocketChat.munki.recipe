@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads the current release version of Rocket.Chat+ and imports it into Munki. This recipe is based on com.github.michalmmac.munki.RocketChat and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+    <key>Identifier</key>
+    <string>com.github.wycomco.munki.RocketChat</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>app_rocketchat</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>generic/apps/rocketchat</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>generic</string>
+            </array>
+            <key>description</key>
+            <string>Rocket.Chat Electron is the official RocketChat app for macOS.</string>
+            <key>category</key>
+            <string>Social Media</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Soziale Netze</string>
+					<key>description</key>
+					<string>Der Rocket.Chat-Client ist ein Wrapper für den Desktop. Er benötigt einen Rocket.Chat-Server.</string>
+				</dict>
+			</dict>
+            <key>developer</key>
+            <string>Rocket.Chat</string>
+            <key>display_name</key>
+            <string>Rocket.Chat</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>minimum_os_version</key>
+            <string>10.9.0</string>
+            <key>blocking_applications</key>
+            <array>
+                <string>Rocket.Chat</string>
+            </array>
+            <key>unattended_install</key>
+            <true/>
+            <key>preinstall_script</key>
+            <string>#!/bin/sh
+if [ -e "/Applications/Rocket.Chat+.app" ]; then
+  /bin/rm -rf "/Applications/Rocket.Chat+.app"
+fi
+if [ -e "/Applications/Rocket.Chat.app" ]; then
+  /bin/rm -rf "/Applications/Rocket.Chat.app"
+fi
+exit
+</string>
+        </dict>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.5.0</string>
+    <key>ParentRecipe</key>
+    <string>com.github.michalmmac.munki.RocketChat</string>
+</dict>
+</plist>
