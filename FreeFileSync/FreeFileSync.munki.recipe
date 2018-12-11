@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads the current release version of FreeFileSync, builds a package and imports it to Munki.
+
+This recipe is based on com.github.bnpl.autopkg.munki.freefilesync and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
+	</string>
+    <key>Identifier</key>
+    <string>com.github.wycomco.munki.freefilesync</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>app_freefilesync</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>generic/apps/freefilesync</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>generic</string>
+            </array>
+            <key>category</key>
+            <string>Utilities</string>
+            <key>description</key>
+            <string>FreeFileSync is a free Open Source software that helps you synchronize files and synchronize folders for Windows, Linux and macOS. It is designed to save your time setting up and running backup jobs while having nice visual feedback along the way.</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Dienstprogramme</string>
+					<key>description</key>
+					<string>FreeFileSync ist eine kostenlose Open-Source-Software, mit der Sie Dateien synchronisieren und Ordner für Windows, Linux und macOS synchronisieren können. Sie sparen Zeit beim Einrichten und Ausführen von Sicherungsjobs und erhalten dabei ein nettes visuelles Feedback.</string>
+				</dict>
+			</dict>
+            <key>developer</key>
+            <string>Zenju</string>
+            <key>display_name</key>
+            <string>FreeFileSync</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+            <key>unattended_uninstall</key>
+            <true/>
+            <key>uninstallable</key>
+            <true/>
+        </dict>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.4.3</string>
+    <key>ParentRecipe</key>
+    <string>com.github.bnpl.autopkg.munki.freefilesync</string>
+</dict>
+</plist>
