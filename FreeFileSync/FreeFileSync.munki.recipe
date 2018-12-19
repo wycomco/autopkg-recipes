@@ -58,6 +58,15 @@ This recipe is based on com.github.bnpl.autopkg.munki.freefilesync and customize
     <key>Process</key>
     <array>
         <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>repo_subdirectory</key>
+                <string>%MUNKI_REPO_SUBDIR%</string>
+            </dict>
+            <key>Processor</key>
+            <string>MunkiImporter</string>
+        </dict>
+        <dict>
             <key>Processor</key>
             <string>PlistReader</string>
             <key>Arguments</key>
