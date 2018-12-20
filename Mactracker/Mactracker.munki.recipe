@@ -1,54 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<dict>
-		<key>Description</key>
-		<string>Downloads the current release version of Mactracker and imports into Munki.
+<dict>
+    <key>Description</key>
+    <string>Downloads the current release version of Mactracker and imports into Munki.
 
-				This recipe is based on com.github.valdore86.munki.mactracker and customized by wycomco (http://www.wycomco.de)
-				to support a different naming convention for munki and German as a default language.
-		</string>
-		<key>Identifier</key>
-		<string>com.github.wycomco.munki.mactracker</string>
-		<key>Input</key>
-		<dict>
-			<key>NAME</key>
-			<string>app_mactracker</string>
-			<key>MUNKI_REPO_SUBDIR</key>
-			<string>generic/apps/ianpage</string>
-			<key>pkginfo</key>
+			This recipe is based on com.github.arubdesu.munki.Mactracker and customized by wycomco (http://www.wycomco.de)
+			to support a different naming convention for munki and German as a default language.</string>
+    <key>ParentRecipe</key>
+    <string>com.github.arubdesu.munki.Mactracker</string>
+    <key>Identifier</key>
+    <string>com.github.wycomco.munki.mactracker</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>app_mactracker</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>generic/apps/ianpage</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>generic</string>
+            </array>
+			<key>category</key>
+			<string>Utilities</string>
+			<key>description</key>
+			<string>Mactracker provides detailed information on every Apple Macintosh, iPod, iPhone, and iPad ever made, including items such as processor speed, memory, graphic cards, supported OS versions, price, storage, and expansion options. Also included is information on early Apple systems, Newton, Apple TV, Apple Watch, Apple accessories, displays, printers, scanners, Wi-Fi products, and operating systems.</string>
+			<key>localized_strings</key>
 			<dict>
-				<key>catalogs</key>
-				<array>
-					<string>generic</string>
-				</array>
-				<key>category</key>
-				<string>Utilities</string>
-				<key>description</key>
-				<string>Mactracker provides detailed information on every Apple Macintosh, iPod, iPhone, and iPad ever made, including items such as processor speed, memory, graphic cards, supported OS versions, price, storage, and expansion options. Also included is information on early Apple systems, Newton, Apple TV, Apple Watch, Apple accessories, displays, printers, scanners, Wi-Fi products, and operating systems.</string>
-				<key>localized_strings</key>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
 				<dict>
-					<key>fallback_locale</key>
-					<string>en</string>
-					<key>de</key>
-					<dict>
-						<key>category</key>
-						<string>Dienstprogramme</string>
-						<key>description</key>
-						<string>Mactracker bietet detaillierte Informationen zu jedem Apple Macintosh, iPod, iPhone und iPad, die jemals hergestellt wurden, einschließlich Angaben zu Prozessorgeschwindigkeit, Speicher, Grafikkarten, unterstützten Betriebssystemversionen, Preis, Speicher und Erweiterungsoptionen. Ebenfalls enthalten sind frühe Apple-Systeme, Newton, Apple TV, Apple Watch, Apple Zubehör, Displays, Drucker, Scanner, Wi-Fi-Produkte und Betriebssysteme.</string>
-					</dict>
+					<key>category</key>
+					<string>Dienstprogramme</string>
+					<key>description</key>
+					<string>Mactracker bietet detaillierte Informationen zu jedem Apple Macintosh, iPod, iPhone und iPad, die jemals hergestellt wurden, einschließlich Angaben zu Prozessorgeschwindigkeit, Speicher, Grafikkarten, unterstützten Betriebssystemversionen, Preis, Speicher und Erweiterungsoptionen. Ebenfalls enthalten sind frühe Apple-Systeme, Newton, Apple TV, Apple Watch, Apple Zubehör, Displays, Drucker, Scanner, Wi-Fi-Produkte und Betriebssysteme.</string>
 				</dict>
-				<key>developer</key>
-				<string>Ian Page</string>
-				<key>name</key>
-				<string>%NAME%</string>
-				<key>unattended_install</key>
-				<true/>
 			</dict>
-		</dict>
-		<key>MinimumVersion</key>
-		<string>1.0.4</string>
-		<key>ParentRecipe</key>
-		<string>com.github.valdore86.munki.mactracker</string>
-	</dict>
+			<key>display_name</key>
+			<string>Mactracker</string>
+			<key>developer</key>
+			<string>Ian Page</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+        </dict>
+    </dict>
+</dict>
 </plist>
