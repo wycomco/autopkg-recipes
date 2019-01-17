@@ -19,7 +19,7 @@ to support a different naming convention for munki and German as a default langu
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>generic</string>
 			</array>
 			<key>category</key>
 			<string>Productivity</string>
