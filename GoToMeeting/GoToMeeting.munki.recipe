@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest version of GoToMeeting and imports it into Munki.
+
+This recipe is based on com.github.homebysix.munki.GoToMeeting and customized by wycomco (http://www.wycomco.de)
+to support a different naming convention for munki and German as a default language.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.gotomeeting</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/gotomeeting</string>
+		<key>NAME</key>
+		<string>app_gotomeeting</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>description</key>
+			<string>Online meeting, desktop sharing, and video conferencing software.</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Produktivität</string>
+					<key>description</key>
+					<string>Software für Onlinemeetings, Desktop Sharing und Videokonferenzen.</string>
+				</dict>
+			</dict>
+			<key>developer</key>
+			<string>LogMeIn, Inc.</string>
+			<key>display_name</key>
+			<string>GoToMeeting</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>preinstall_script</key>
+			<string>#!/bin/sh
+
+echo "Removing old copies of GoToMeeting from the /Applications folder..."
+rm -rf /Applications/GoToMeeting\ \(*\).app
+
+exit $?
+            </string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.5.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.munki.GoToMeeting</string>
+</dict>
+</plist>
