@@ -5,11 +5,11 @@
     <key>Description</key>
     <string>Downloads the current release version of Webex Desktop Meetings App and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.webexapp</string>
+    <string>com.github.wycomco.pkg.webexapp</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>WebexApp</string>
+        <string>app_webexapp</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.autopkg.download.webexapp</string>
@@ -52,7 +52,7 @@
             <key>Arguments</key>
             <dict>
                 <key>input_plist_path</key>
-                <string>%pkgroot%/Applications/Cyberduck.app/Contents/Info.plist</string>
+                <string>%pkgroot%/Applications/Cisco/webexapp.dmg/Contents/Info.plist</string>
                 <key>plist_version_key</key>
                 <string>CFBundleShortVersionString</string>
             </dict>
