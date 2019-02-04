@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v1.0.3 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of Font Finagler and imports it into Munki. This recipe is based on com.github.homebysix.munki.FontFinagler and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.FontFinagler</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/FontFinagler</string>
+		<key>NAME</key>
+		<string>app_fontfinagler</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>description</key>
+			<string>Fixes garbled text font corruption.</string>
+			<key>category</key>
+			<string>Graphics and design</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Grafik und Design</string>
+					<key>description</key>
+					<string>Repariert fehlerhafte Darstellungen von Schriften.</string>
+				</dict>
+			</dict>
+			<key>developer</key>
+			<string>Mark Douma</string>
+			<key>display_name</key>
+			<string>Font Finagler</string>
+			<key>minimum_os_version</key>
+			<string>10.6</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.6.1</string>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.munki.FontFinagler</string>
+</dict>
+</plist>
