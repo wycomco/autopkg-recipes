@@ -23,7 +23,21 @@
 				<string>generic</string>
 			</array>
 			<key>description</key>
-			<string>Parallels Desktop for Mac ist eine Virtualisierungssoftware für Mac OS X auf Intel-Prozessoren von Parallels. Es handelt sich um die Hauptversion 12.</string>
+			<string>Parallels Desktop for Mac is a virtualization software for macOS on Intel processors. It is the main release 12.</string>
+    		<key>category</key>
+			<string>Productivity</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Parallels Desktop for Mac ist eine Virtualisierungssoftware für macOS auf Intel-Prozessoren. Es handelt sich um die Hauptversion 12.</string>
+					<key>category</key>
+					<string>Produktivität</string>
+				</dict>
+			</dict>
 			<key>developer</key>
 			<string>Parallels, Inc.</string>
 			<key>display_name</key>

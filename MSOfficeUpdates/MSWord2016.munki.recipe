@@ -62,6 +62,24 @@ This recipe is based on com.github.autopkg.munki.MSWord2016 and customized by wy
 			<array>
 				<string>generic</string>
 			</array>
+            <key>category</key>
+            <string>Productivity</string>
+            <key>description</key>
+            <string>Text processing software from Microsoft. Word is part of the Microsoft Office suite and is available for Windows and for macOS.</string>
+        	<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Textverarbeitungsprogramm von Microsoft. Word gehört zum Microsoft Office-Paket und ist sowohl für Windows als auch für macOS verfügbar.</string>
+					<key>category</key>
+					<string>Produktivität</string>
+    	    		<key>display_name</key>
+        			<string>Microsoft Word 2016 für Mac</string>
+				</dict>
+			</dict>
 			<key>display_name</key>
 			<string>Microsoft Word 2016 for Mac</string>
 			<key>name</key>

@@ -64,6 +64,24 @@ This recipe is based on com.github.autopkg.munki.MSOneNote2016 and customized by
 			</array>
 			<key>display_name</key>
 			<string>Microsoft OneNote 2016 for Mac</string>
+            <key>category</key>
+            <string>Productivity</string>
+            <key>description</key>
+            <string>Microsoft OneNote is a computer program for free-form information gathering and multi-user collaboration. It is part of the Microsoft Office suite.</string>
+        	<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Microsoft OneNote ist eine Software von Microsoft, die den PC als digitalen Notizblock nutzt. Die Software wird unter macOS zusammen mit dem Office-Paket oder als kostenloser Download vertrieben. (Quelle: Wikipedia)</string>
+					<key>category</key>
+					<string>Produktivität</string>
+    	    		<key>display_name</key>
+        			<string>Microsoft OneNote 2016 für Mac</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

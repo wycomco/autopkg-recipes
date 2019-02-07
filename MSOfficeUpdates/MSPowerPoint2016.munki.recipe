@@ -64,6 +64,24 @@ This recipe is based on com.github.autopkg.munki.MSPowerPoint2016 and customized
 			</array>
 			<key>display_name</key>
 			<string>Microsoft PowerPoint for Mac</string>
+            <key>category</key>
+            <string>Productivity</string>
+            <key>description</key>
+            <string>Microsoft PowerPoint is a presentation program. PowerPoint is part of the Microsoft Office suite and is available for Windows and for macOS.</string>
+        	<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Microsoft PowerPoint ist ein Präsentationsprogramm von Microsoft. PowerPoint gehört zum gehört zum Microsoft Office-Paket und ist sowohl für Windows als auch für macOS verfügbar.</string>
+					<key>category</key>
+					<string>Produktivität</string>
+    	    		<key>display_name</key>
+        			<string>Microsoft PowerPoint 2016 für Mac</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

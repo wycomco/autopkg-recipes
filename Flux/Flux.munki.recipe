@@ -23,7 +23,7 @@ to support a different naming convention for munki and German as a default langu
 			<key>description</key>
 			<string>f.lux makes your computer screen look like the room you're in, all the time. When the sun sets, it makes your computer look like your indoor lights. In the morning, it makes things look like sunlight again. Tell f.lux what kind of lighting you have, and where you live. Then forget about it. f.lux will do the rest, automatically.</string>
 			<key>category</key>
-			<string>Utilites</string>
+			<string>Utilities</string>
 			<key>localized_strings</key>
 			<dict>
 				<key>fallback_locale</key>

@@ -62,6 +62,22 @@ This recipe is based on com.github.autopkg.munki.SkypeForBusiness and customized
 			<array>
 				<string>generic</string>
 			</array>
+            <key>category</key>
+            <string>Productivity</string>
+            <key>description</key>
+            <string>Skype for Business is an instant messaging client (IM) used with Skype for Business Server or with Skype for Business Online (available with Microsoft Office 365).[1] Skype for Business is enterprise software. (Source: Wikipedia)</string>
+        	<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Skype for Business ist eine proprietäre Anwendung von Microsoft, die verschiedene Kommunikationsmedien (Real-time Collaboration, IP-Telefonie, Videokonferenz) in einer einheitlichen Anwendungsumgebung zusammenfasst. (Quelle: Wikipedia)</string>
+					<key>category</key>
+					<string>Produktivität</string>
+				</dict>
+			</dict>
 			<key>display_name</key>
 			<string>Skype for Business</string>
 			<key>name</key>

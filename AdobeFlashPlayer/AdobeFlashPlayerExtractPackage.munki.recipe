@@ -27,7 +27,7 @@
 			<key>description</key>
 			<string>Adobe Flash Player is freeware for using content created on the Adobe Flash platform, including viewing multimedia contents, executing rich Internet applications, and streaming audio and video.</string>
 			<key>category</key>
-			<string>Utilites</string>
+			<string>Utilities</string>
 			<key>localized_strings</key>
 			<dict>
 				<key>fallback_locale</key>

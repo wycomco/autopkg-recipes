@@ -64,6 +64,24 @@ This recipe is based on com.github.autopkg.munki.MSExcel2016 and customized by w
 			</array>
 			<key>display_name</key>
 			<string>Microsoft Excel 2016 for Mac</string>
+            <key>category</key>
+            <string>Productivity</string>
+            <key>description</key>
+            <string>Microsoft Excel is a spreadsheet developed by Microsoft for Windows, macOS, Android and iOS. It features calculation, graphing tools, pivot tables, and a macro programming language called Visual Basic for Applications. Excel forms part of Microsoft Office. (Source: Wikipedia)</string>
+        	<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>description</key>
+					<string>Microsoft Excel ist das am weitesten verbreitete Tabellenkalkulationsprogramm. Excel gehört zum Microsoft-Office-365-Abonnement und ist sowohl für Windows als auch für macOS verfügbar. (Quelle: Wikipedia)</string>
+					<key>category</key>
+					<string>Produktivität</string>
+    	    		<key>display_name</key>
+        			<string>Microsoft Excel 2016 für Mac</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

@@ -15,7 +15,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/sparklabs</string>
 		<key>MUNKI_CATEGORY</key>
-		<string>Utilites</string>
+		<string>Utilities</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>

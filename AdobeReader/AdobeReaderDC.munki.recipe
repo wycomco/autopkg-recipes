@@ -33,7 +33,7 @@
 			<key>description</key>
 			<string>Adobe Acrobat Reader DC software is the free global standard for reliably viewing, printing, and commenting on PDF documents.</string>
 			<key>category</key>
-			<string>Utilites</string>
+			<string>Utilities</string>
 			<key>localized_strings</key>
 			<dict>
 				<key>fallback_locale</key>

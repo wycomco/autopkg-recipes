@@ -31,6 +31,8 @@ This recipe is based on com.github.autopkg.munki.OracleJava7 and customized by w
 			<string>Java SE Runtime Environment 7 ermöglicht das Ausführen von Java Anwendungen und Applets.
 			
 			Java SE Runtime Environment 7 enables the execution of Java applications and applets.</string>
+			<key>category</key>
+			<string>Utilities</string>
 			<key>display_name</key>
 			<string>Java 7</string>
 			<key>minimum_os_version</key>

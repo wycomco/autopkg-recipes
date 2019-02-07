@@ -13,7 +13,7 @@
 		<key>LANGUAGE</key>
 		<string>de</string>
 		<key>MUNKI_CATEGORY</key>
-		<string>Produktivität</string>
+		<string>Productivity</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/openoffice</string>
 		<key>NAME</key>
@@ -27,7 +27,19 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
-			<string>Apache OpenOffice ist ein freies Office-Paket, das aus einer Kombination verschiedener Programme zur Textverarbeitung, Tabellenkalkulation, Präsentation und zum Zeichnen besteht. Ein Datenbankprogramm und ein Formeleditor sind ebenfalls enthalten.</string>
+			<string>Apache OpenOffice is a free office package that consists of a combination of various word processing, spreadsheet, presentation and drawing applications. A database program and a formula editor are also included.</string>
+				<key>localized_strings</key>
+				<dict>
+					<key>fallback_locale</key>
+					<string>en</string>
+					<key>de</key>
+					<dict>
+						<key>description</key>
+						<string>Apache OpenOffice ist ein freies Office-Paket, das aus einer Kombination verschiedener Programme zur Textverarbeitung, Tabellenkalkulation, Präsentation und zum Zeichnen besteht. Ein Datenbankprogramm und ein Formeleditor sind ebenfalls enthalten.</string>
+						<key>category</key>
+						<string>Produktivität</string>
+					</dict>
+				</dict>
 			<key>developer</key>
 			<string>The Apache Software Foundation</string>
 			<key>display_name</key>

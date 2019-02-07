@@ -18,8 +18,22 @@
 			<array>
 				<string>generic</string>
 			</array>
+            <key>category</key>
+            <string>Graphics and design</string>
 			<key>description</key>
-			<string>Benötigen Sie ein Schaubild, ein Ablaufdiagramm, ein schnelles Seitenlayout oder ein Drahtmodell für eine Website oder ein Grafikdesign? Mit OmniGraffle können Sie schnell Grafikdokumente erstellen, die ins Auge springen. Das Programm hält Linien auch dann mit Formen verbunden, wenn sie bewegt werden, es bietet leistungsstarke Gestaltungswerkzeuge und organisiert Grafiken auf magische Weise mit nur einem Klick. Egal ob Sie eine schnelle Skizze oder eine ausführliche technische Darstellung benötigen – OmniGraffle sorgt dafür, dass Ihre Zeichnung optimal verständlich bleibt.</string>
+			<string>Do you need a chart, a flow chart, a quick page layout, or a wireframe for a website or graphic design? With OmniGraffle, you can quickly create graphic documents that catch your eye. The program keeps lines connected to shapes as they move, providing powerful design tools and magically organizing graphics with just one click. No matter if you need a quick sketch or a detailed technical presentation – OmniGraffle ensures that your drawing remains perfectly understandable.</string>
+				<key>localized_strings</key>
+				<dict>
+					<key>fallback_locale</key>
+					<string>en</string>
+					<key>de</key>
+					<dict>
+						<key>description</key>
+						<string>Benötigen Sie ein Schaubild, ein Ablaufdiagramm, ein schnelles Seitenlayout oder ein Drahtmodell für eine Website oder ein Grafikdesign? Mit OmniGraffle können Sie schnell Grafikdokumente erstellen, die ins Auge springen. Das Programm hält Linien auch dann mit Formen verbunden, wenn sie bewegt werden, es bietet leistungsstarke Gestaltungswerkzeuge und organisiert Grafiken auf magische Weise mit nur einem Klick. Egal ob Sie eine schnelle Skizze oder eine ausführliche technische Darstellung benötigen – OmniGraffle sorgt dafür, dass Ihre Zeichnung optimal verständlich bleibt.</string>
+						<key>category</key>
+						<string>Grafik und Design</string>
+					</dict>
+				</dict>
 			<key>display_name</key>
 			<string>OmniGraffle</string>
 			<key>name</key>
