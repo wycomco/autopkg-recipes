@@ -26,6 +26,20 @@
 			<string>Mothers Ruin Software</string>
 			<key>display_name</key>
 			<string>Suspicious Package</string>
+			<key>category</key>
+			<string>Utilities</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Dienstprogramme</string>
+					<key>description</key>
+					<string>App, um den Inhalt eines Installationspakets zu überprüfen.</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
