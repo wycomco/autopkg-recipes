@@ -13,7 +13,7 @@
         <key>BRANCH</key>
         <string>release</string>
         <key>URL</key>
-        <string>https://mothersruin.com/software/downloads/</key>
+        <string>https://mothersruin.com/software/downloads/</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.9</string>
