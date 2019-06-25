@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads latest version of Suspicious Package and imports into a Munki repo. This repo is customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+    <key>Identifier</key>
+    <string>com.github.wycomco.munki.SuspiciousPackage</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>app_suspiciouspackage</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>generic/apps/suspiciouspackage</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>generic</string>
+            </array>
+            <key>description</key>
+            <string>An application for inspecting macOS installer packages</string>
+            <key>display_name</key>
+            <string>Adium</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+        </dict>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.2.0</string>
+    <key>ParentRecipe</key>
+    <string>com.github.wycomco.download.SuspiciousPackage</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>pkg_path</key>
+                <string>%pathname%</string>
+                <key>repo_subdirectory</key>
+                <string>%MUNKI_REPO_SUBDIR%</string>
+            </dict>
+            <key>Processor</key>
+            <string>MunkiImporter</string>
+        </dict>
+    </array>
+</dict>
+</plist>
