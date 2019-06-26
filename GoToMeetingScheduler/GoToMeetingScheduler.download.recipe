@@ -64,7 +64,7 @@
 					<string>Apple Root CA</string>
 				</array>
 				<key>input_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/GoToMeeting%20Scheduler.app</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/GoToMeeting\ Scheduler.app</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
