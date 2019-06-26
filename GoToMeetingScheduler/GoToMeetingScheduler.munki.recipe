@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v1.1.2 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of GoToMeeting Scheduler and imports it into Munki. This recipe is customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.GoToMeetingScheduler</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/gotomeeting</string>
+		<key>NAME</key>
+		<string>app_gotoscheduler</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>GoToMeeting Scheduler.app</string>
+				<string>GoToMeetingSchedulerAutoupdater.app</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>description</key>
+			<string>The GoToMeeting Scheduler is used to schedule meetings from your Microsoft Outlook application on your Mac. With the GoToMeeting scheduler, you can perform the following tasks:
+• Add GoToMeeting to your event with just one click
+• Invite attendees through your email contacts
+• Sync meetings, even while you edit them</string>
+			<key>developer</key>
+			<string>LogMeIn</string>
+			<key>display_name</key>
+			<string>GoToMeeting Scheduler</string>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Produktivität</string>
+					<key>description</key>
+					<string>Der GoToMeeting-Planer dient dazu, Meetings über Ihre Microsoft Outlook-Anwendung auf Ihrem Mac zu planen. Mit dem GoToMeeting-Planer können Sie folgende Aufgaben durchführen:
+• GoToMeeting mit nur einem Klick in Ihre Veranstaltung einfügen
+• Teilnehmer über Ihre E-Mail-Kontakte einladen
+• Meetings synchronisieren, auch während Sie sie bearbeiten</string>
+				<key>display_name</key>
+				<string>GoToMeeting-Planer</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.wycomco.download.GoToMeetingScheduler</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_path</key>
+				<string>%dmg_path%</string>
+				<key>repo_subdirectory</key>
+				<string>%MUNKI_REPO_SUBDIR%</string>
+			</dict>
+			<key>Processor</key>
+			<string>MunkiImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
