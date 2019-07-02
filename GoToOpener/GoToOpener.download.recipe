@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v1.1.2 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of GoTo Opener.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.download.GoToOpener</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://launch.getgo.com/launcher2/app/GoTo%20Opener.dmg?token=e0-OFd9HoXzsValzC6bjhZH8ECwSw-ZzCuNhdlIiEwzCbaSfQAX3vsfW7rzi-EQgixuyNKtPUslkBN8gaGTLjK6O5Re4n_-hvhAoqQ3gaXezxO2B_3b9tzBUk6pRCdYjHsDOCjTmiY6Ulle-pT6laOoFzf34zfdktnNg8PYVvLEAHylclIjHYJTGa7JaGh5Fc37LuR2EQgTp-ssw0phRBqXs2_RiMz9C02Fhc8NsM7b8mUVPhbKqicyyNoxvhP7CdsqyvNdWBGzIdSUIaKl66Xc5zcXyCxLLkpBNJu9K7jhcySk_qo4TosdcmVxm7AKVKKKFQnL1CNnUGCU-uFlt-1D2ExtzrMLzwNRrCs6mT8cEYnGGhiWvUQV1nZgqAt2I1vlL-LmNL01Hk1Xaxh-1NjPYJZT5l1aDVrp4XYKrQNNfxfu0Xv3RvtXZmv9dFZ9PVwgLeo1Dg&amp;downloadTrigger=javascript</string>
+		<key>NAME</key>
+		<string>GoTo Opener</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>%DOWNLOAD_URL%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%pathname%/GoTo Opener.app</string>
+				<key>requirement</key>
+				<string>anchor apple generic and identifier "com.logmein.mac.GoToOpener" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GFNFVT632V)</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_plist_path</key>
+				<string>%pathname%/GoTo Opener.app/Contents/Info.plist</string>
+				<key>plist_version_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<key>Processor</key>
+			<string>Versioner</string>
+		</dict>
+	</array>
+</dict>
+</plist>
