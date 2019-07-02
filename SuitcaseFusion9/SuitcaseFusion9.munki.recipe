@@ -29,13 +29,13 @@
 					<key>category</key>
 					<string>Grafik und Design</string>
 					<key>description</key>
-					<string>Repariert fehlerhafte Darstellungen von Schriften.</string>
+					<string>Verwalten Sie alle Ihre Zeichensätze aus einer Quelle, egal wie viele Sie haben - einschließlich Ihrer Systemzeichensätze, gekaufter Zeichensätze, mit Adobe Typekit synchronisierter Zeichensätze, Google-Zeichensätze und mehr. Schalten Sie sie nach Bedarf ein und aus. Suitcase Fusion bietet Ihnen die beste Möglichkeit, sie in Ihrem vorhandenen Workflow zu organisieren, zu finden, anzuzeigen und zu verwenden.</string>
 				</dict>
 			</dict>
 			<key>developer</key>
 			<string>Extensis</string>
             <key>description</key>
-            <string>Verwalten Sie alle Ihre Zeichensätze aus einer Quelle, egal wie viele Sie haben - einschließlich Ihrer Systemzeichensätze, gekaufter Zeichensätze, mit Adobe Typekit synchronisierter Zeichensätze, Google-Zeichensätze und mehr. Schalten Sie sie nach Bedarf ein und aus. Suitcase Fusion bietet Ihnen die beste Möglichkeit, sie in Ihrem vorhandenen Workflow zu organisieren, zu finden, anzuzeigen und zu verwenden.</string>
+            <string>Manage all of your fonts from one source, no matter how many you have—including your system fonts, fonts you have bought, fonts synced with Adobe Typekit, Google fonts, and more. Turn it on and off as needed. Suitcase Fusion gives you the best way to organize, find, view, and use it in your existing workflow.</string>
             <key>display_name</key>
             <string>Suitcase Fusion 9</string>
             <key>name</key>
