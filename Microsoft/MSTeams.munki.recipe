@@ -15,7 +15,7 @@
         <key>MUNKI_NAME</key>
         <string>app_teams</string>
         <key>MUNKI_REPO_SUBDIR</key>
-        <string>generic/apps/microsoft/office2016/</string>
+        <string>generic/apps/microsoft/office365</string>
         <key>MUNKI_CATEGORY</key>
         <string>Social Media</string>
         <key>MUNKI_DEVELOPER</key>
@@ -57,4 +57,3 @@
         </dict>
     </dict>
 </dict>
-</plist>

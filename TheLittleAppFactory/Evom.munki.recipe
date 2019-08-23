@@ -47,7 +47,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.hansen-m.download.Evom</string>
+	<string>com.github.wycomco.download.Evom</string>
 	<key>Process</key>
 	<array>
 		<dict>
