@@ -14,7 +14,7 @@ to support a different naming convention for munki and German as a default langu
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/gotomeeting</string>
 		<key>NAME</key>
-		<string>app_gotomeeting</string>
+		<string>GoToMeeting</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -42,7 +42,7 @@ to support a different naming convention for munki and German as a default langu
 			<key>display_name</key>
 			<string>GoToMeeting</string>
 			<key>name</key>
-			<string>%NAME%</string>
+			<string>app_gotomeeting</string>
 			<key>preinstall_script</key>
 			<string>#!/bin/sh
 
