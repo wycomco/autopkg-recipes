@@ -15,7 +15,7 @@ This recipe is based on com.github.homebysix.munki.GraphicConverter and customiz
 	<key>Input</key>
 	<dict>
 		<key>MAJOR_VERSION</key>
-		<string>10</string>
+		<string>11</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>generic/apps/lemkesoft</string>
 		<key>NAME</key>
