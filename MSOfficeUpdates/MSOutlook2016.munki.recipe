@@ -84,6 +84,8 @@ This recipe is based on com.github.autopkg.munki.MSOutlook2016 and customized by
 			</dict>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>maximum_os_version</key>
+			<string>10.14.6</string>
 			<key>unattended_install</key>
 			<true/>
 			<key>update_for</key>
