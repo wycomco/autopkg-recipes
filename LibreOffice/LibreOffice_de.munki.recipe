@@ -28,7 +28,7 @@ to support a different naming convention for munki and German as a default langu
 			<key>category</key>
 			<string>Produktivität</string>
 			<key>description</key>
-			<string>Installiert die deutsche Lokalisierung für LibreOffice</string>
+			<string>LibreOffice ist eine freie Zusammenstellung gebräuchlicher Software für Arbeiten im Büro. Dazu gehören Programme zur Textverarbeitung, Tabellenkalkulation, Präsentation und zum Erstellen von Zeichnungen.</string>
 			<key>display_name</key>
 			<string>LibreOffice deutsch</string>
 		</dict>

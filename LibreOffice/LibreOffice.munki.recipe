@@ -30,7 +30,7 @@ This recipe is based on io.github.hjuutilainen.munki.LibreOffice and customized 
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
-			<string>LibreOffice is a free and open source office suite, a project of The Document Foundation. It was forked from OpenOffice.org in 2010, which was an open-sourced version of the earlier StarOffice. The LibreOffice suite comprises programs for word processing, the creation and editing of spreadsheets, slideshows, diagrams and drawings, working with databases, and composing mathematical formulae. (Source: Wikipedia)</string>
+			<string>LibreOffice is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, Calc, Impress, Draw, Math and Base.</string>
 			<key>localized_strings</key>
 			<dict>
 				<key>fallback_locale</key>
@@ -41,12 +41,14 @@ This recipe is based on io.github.hjuutilainen.munki.LibreOffice and customized 
 					<string>Produktivität</string>
 					<key>description</key>
 					<string>LibreOffice ist eine freie Zusammenstellung gebräuchlicher Software für Arbeiten im Büro. Dazu gehören Programme zur Textverarbeitung, Tabellenkalkulation, Präsentation und zum Erstellen von Zeichnungen.</string>
+					<key>display_name</key>
+					<string>LibreOffice englisch</string>
 				</dict>
 			</dict>
 			<key>developer</key>
 			<string>The Document Foundation</string>
 			<key>display_name</key>
-			<string>LibreOffice</string>
+			<string>LibreOffice english version</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
