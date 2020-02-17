@@ -19,20 +19,6 @@ to support a different naming convention for munki and German as a default langu
     <string>Productivity</string>
     <key>RELEASE</key>
     <string>still</string>
-	<key>localized_strings</key>
-	<dict>
-		<key>fallback_locale</key>
-		<string>en</string>
-		<key>de</key>
-		<dict>
-			<key>category</key>
-			<string>Produktivität</string>
-			<key>description</key>
-			<string>LibreOffice ist eine freie Zusammenstellung gebräuchlicher Software für Arbeiten im Büro. Dazu gehören Programme zur Textverarbeitung, Tabellenkalkulation, Präsentation und zum Erstellen von Zeichnungen.</string>
-			<key>display_name</key>
-			<string>LibreOffice deutsch</string>
-		</dict>
-	</dict>
     <key>TYPE</key>
     <string>mac-x86_64</string>
         <key>MUNKI_REPO_SUBDIR</key>
@@ -53,6 +39,20 @@ to support a different naming convention for munki and German as a default langu
             <string>LibreOffice german version</string>
             <key>name</key>
             <string>%NAME%</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Produktivität</string>
+					<key>description</key>
+					<string>LibreOffice ist eine freie Zusammenstellung gebräuchlicher Software für Arbeiten im Büro. Dazu gehören Programme zur Textverarbeitung, Tabellenkalkulation, Präsentation und zum Erstellen von Zeichnungen.</string>
+					<key>display_name</key>
+					<string>LibreOffice deutsch</string>
+				</dict>
+			</dict>
             <key>minimum_os_version</key>
             <string>10.9.0</string>
             <key>blocking_applications</key>
