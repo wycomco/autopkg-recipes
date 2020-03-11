@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads OneDrive standalone installer and imports it to Munki. Does not customize the settings. See https://support.office.com/en-us/article/Configure-the-OneDrive-Next-Generation-Sync-Client-on-macOS-eadddc4e-edc0-4982-9f50-2aef5038c307 for configuration options.        
+
+    This recipe is based on com.github.apettinen.munki.MSOneDrive and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+    <key>Identifier</key>
+    <string>com.github.wycomco.munki.MSOneDrive</string>
+    <key>ParentRecipe</key>
+    <string>com.github.apettinen.munki.MSOneDrive</string>
+    <key>MinimumVersion</key>
+    <string>0.6.0</string>
+    <key>Input</key>
+    <dict>
+        <key>MUNKI_NAME</key>
+        <string>app_onedrive</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>generic/apps/microsoft/onedrive</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Productivity</string>
+        <key>MUNKI_DEVELOPER</key>
+        <string>Microsoft</string>
+        <key>DISPLAY_NAME</key>
+        <string>Microsoft OneDrive</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>generic</string>
+            </array>
+            <key>description</key>
+            <string>Get to your files from anywhere, on any device, with Microsoft OneDrive. Share and work together with anyone in your work and life. With OneDrive for Business, you also get storage for your work files so you can share and collaborate on them with other people at your work or school/university. The OneDrive app for Mac makes it easy to work with your OneDrive files on your Mac.</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Produktivität</string>
+					<key>description</key>
+					<string>OneDrive ist der zentrale Ort für alle Bereiche Ihres Lebens. Es bietet Ihnen kostenlosen Onlinespeicher für alle Ihre persönlichen Dateien, sodass Sie von Ihrem Mac und allen anderen Geräten, die Sie verwenden – iPhone, iPad, PC oder Android – darauf zugreifen können.</string>
+				</dict>
+			</dict>
+            <key>display_name</key>
+            <string>%DISPLAY_NAME%</string>
+            <key>name</key>
+            <string>%MUNKI_NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
+            <key>developer</key>
+            <string>%MUNKI_DEVELOPER%</string>
+            <key>minimum_os_version</key>
+            <string>10.12</string>
+        </dict>
+    </dict>
+</dict>
+</plist>
