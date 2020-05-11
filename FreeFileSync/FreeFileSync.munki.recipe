@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release version of FreeFileSync, builds a package and imports it to Munki.
+    <string>Downloads the current release version of FreeFileSync, builds a package and imports it to Munki. Taken from bnpl-recipes repo
 
-This recipe is based on com.github.bnpl.autopkg.munki.freefilesync and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
-	</string>
+This recipe is based on com.github.dataJAR-recipes.munki.freefilesync and customized by wycomco (http://www.wycomco.de)
+to support a different naming convention for munki and German as a default language.</string>
     <key>Identifier</key>
     <string>com.github.wycomco.munki.freefilesync</string>
     <key>Input</key>
@@ -24,11 +24,9 @@ This recipe is based on com.github.bnpl.autopkg.munki.freefilesync and customize
             <key>category</key>
             <string>Utilities</string>
             <key>description</key>
-            <string>FreeFileSync is a free Open Source software that helps you synchronize files and synchronize folders for Windows, Linux and macOS. It is designed to save your time setting up and running backup jobs while having nice visual feedback along the way.</string>
+            <string>FreeFileSync is a free Open Source software that helps you synchronize files and synchronize folders for Windows, Linux and Mac OS X. It is designed to save your time setting up and running backup jobs while having nice visual feedback along the way.</string>
 			<key>localized_strings</key>
 			<dict>
-				<key>fallback_locale</key>
-				<string>en</string>
 				<key>de</key>
 				<dict>
 					<key>category</key>
@@ -36,6 +34,8 @@ This recipe is based on com.github.bnpl.autopkg.munki.freefilesync and customize
 					<key>description</key>
 					<string>FreeFileSync ist eine kostenlose Open-Source-Software, mit der Sie Dateien synchronisieren und Ordner für Windows, Linux und macOS synchronisieren können. Sie sparen Zeit beim Einrichten und Ausführen von Sicherungsjobs und erhalten dabei ein nettes visuelles Feedback.</string>
 				</dict>
+				<key>fallback_locale</key>
+				<string>en</string>
 			</dict>
             <key>developer</key>
             <string>Zenju</string>
@@ -54,6 +54,6 @@ This recipe is based on com.github.bnpl.autopkg.munki.freefilesync and customize
     <key>MinimumVersion</key>
     <string>0.4.3</string>
     <key>ParentRecipe</key>
-    <string>com.github.bnpl.autopkg.munki.freefilesync</string>
+    <string>com.github.dataJAR-recipes.munki.freefilesync</string>
 </dict>
 </plist>
