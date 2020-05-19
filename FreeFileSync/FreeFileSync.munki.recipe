@@ -55,5 +55,19 @@ to support a different naming convention for munki and German as a default langu
     <string>0.4.3</string>
     <key>ParentRecipe</key>
     <string>com.github.dataJAR-recipes.munki.freefilesync</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Processor</key>
+            <string>MunkiImporter</string>
+            <key>Arguments</key>
+            <dict>
+                <key>pkg_path</key>
+                <string>%pkg_path%</string>
+                <key>repo_subdirectory</key>
+                <string>%MUNKI_REPO_SUBDIR%</string>
+            </dict>
+        </dict>
+    </array>
 </dict>
 </plist>
