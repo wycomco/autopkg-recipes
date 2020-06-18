@@ -89,7 +89,10 @@ This recipe is based on com.github.autopkg.munki.MSOneNote2016 and customized by
 
 if [ -d "/Library/Application Support/Microsoft/MAU2.0" ]; then
    rm -rf /Library/Application\ Support/Microsoft/MAU2.0/
-   echo "Removed Microsoft AutoUpdate folder"
+   launchctl remove com.microsoft.autoupdate.helper
+   rm -f /Library/PrivilegedHelperTools/com.microsoft.autoupdate.helper
+   rm -f /Library/LaunchDaemons/com.microsoft.autoupdate.helper.plist
+   echo "Removed Microsoft AutoUpdate"
 fi          
         
 if [ -f "/private/var/db/receipts/com.microsoft.autoupdate2.plist" ]; then
