@@ -97,11 +97,6 @@ if [ -f "/private/var/db/receipts/com.microsoft.autoupdate2.plist" ]; then
    echo "Removed Office 2016 MS AutoUpdate receipt and BOM"
 fi
 
-if [ -f "/private/var/db/receipts/com.microsoft.package.Microsoft_AutoUpdate.app.plist" ]; then
-   rm -f /private/var/db/receipts/com.microsoft.package.Microsoft_AutoUpdate.app.*
-   echo "Removed Office 2019 MS AutoUpdate receipt and BOM"
-fi
-
 exit 0</string>
 			<key>maximum_os_version</key>
 			<string>10.14.6</string>
