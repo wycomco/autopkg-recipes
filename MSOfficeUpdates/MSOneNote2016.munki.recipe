@@ -84,6 +84,25 @@ This recipe is based on com.github.autopkg.munki.MSOneNote2016 and customized by
 			</dict>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>postinstall_script</key>
+                        <string>#!/bin/sh
+
+if [ -d "/Library/Application Support/Microsoft/MAU2.0" ]; then
+   rm -rf /Library/Application\ Support/Microsoft/MAU2.0/
+   echo "Removed Microsoft AutoUpdate folder"
+fi          
+        
+if [ -f "/private/var/db/receipts/com.microsoft.autoupdate2.plist" ]; then
+   rm -f /private/var/db/receipts/com.microsoft.autoupdate2.*
+   echo "Removed Office 2016 MS AutoUpdate receipt and BOM"
+fi
+
+if [ -f "/private/var/db/receipts/com.microsoft.package.Microsoft_AutoUpdate.app.plist" ]; then
+   rm -f /private/var/db/receipts/com.microsoft.package.Microsoft_AutoUpdate.app.*
+   echo "Removed Office 2019 MS AutoUpdate receipt and BOM"
+fi
+
+exit 0</string>
 			<key>maximum_os_version</key>
 			<string>10.14.6</string>
 			<key>unattended_install</key>
