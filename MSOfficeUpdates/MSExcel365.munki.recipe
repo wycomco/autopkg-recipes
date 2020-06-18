@@ -51,6 +51,18 @@
             <string>Microsoft Excel</string>
             <key>name</key>
             <string>%NAME%</string>
+            <key>postinstall_script</key>
+            <string>#!/bin/sh
+
+if [ -d "/Library/Application Support/Microsoft/MAU2.0" ]; then
+   rm -rf /Library/Application\ Support/Microsoft/MAU2.0/
+   launchctl remove com.microsoft.autoupdate.helper
+   rm -f /Library/PrivilegedHelperTools/com.microsoft.autoupdate.helper
+   rm -f /Library/LaunchDaemons/com.microsoft.autoupdate.helper.plist
+   echo "Removed Microsoft AutoUpdate"
+fi
+
+exit 0</string>
             <key>unattended_install</key>
             <true/>
             <key>unattended_uninstall</key>

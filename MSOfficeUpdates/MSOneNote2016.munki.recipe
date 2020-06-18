@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -93,11 +93,6 @@ if [ -d "/Library/Application Support/Microsoft/MAU2.0" ]; then
    rm -f /Library/PrivilegedHelperTools/com.microsoft.autoupdate.helper
    rm -f /Library/LaunchDaemons/com.microsoft.autoupdate.helper.plist
    echo "Removed Microsoft AutoUpdate"
-fi          
-        
-if [ -f "/private/var/db/receipts/com.microsoft.autoupdate2.plist" ]; then
-   rm -f /private/var/db/receipts/com.microsoft.autoupdate2.*
-   echo "Removed Office 2016 MS AutoUpdate receipt and BOM"
 fi
 
 exit 0</string>
