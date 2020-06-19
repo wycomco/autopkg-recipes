@@ -85,7 +85,7 @@ This recipe is based on com.github.autopkg.munki.MSOneNote2016 and customized by
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>postinstall_script</key>
-                        <string>#!/bin/sh
+			<string>#!/bin/sh
 
 if [ -d "/Library/Application Support/Microsoft/MAU2.0" ]; then
    rm -rf /Library/Application\ Support/Microsoft/MAU2.0/
