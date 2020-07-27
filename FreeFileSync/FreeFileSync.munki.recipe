@@ -2,29 +2,33 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Description</key>
-    <string>Downloads the current release version of FreeFileSync, builds a package and imports it to Munki. Taken from bnpl-recipes repo
+	<key>Description</key>
+	<string>Downloads the current release version of FreeFileSync, builds a package and imports it to Munki. Taken from bnpl-recipes repo
 
 This recipe is based on com.github.dataJAR-recipes.munki.freefilesync and customized by wycomco (http://www.wycomco.de)
 to support a different naming convention for munki and German as a default language.</string>
-    <key>Identifier</key>
-    <string>com.github.wycomco.munki.freefilesync</string>
-    <key>Input</key>
-    <dict>
-        <key>NAME</key>
-        <string>app_freefilesync</string>
-        <key>MUNKI_REPO_SUBDIR</key>
-        <string>generic/apps/freefilesync</string>
-        <key>pkginfo</key>
-        <dict>
-            <key>catalogs</key>
-            <array>
-                <string>generic</string>
-            </array>
-            <key>category</key>
-            <string>Utilities</string>
-            <key>description</key>
-            <string>FreeFileSync is a free Open Source software that helps you synchronize files and synchronize folders for Windows, Linux and Mac OS X. It is designed to save your time setting up and running backup jobs while having nice visual feedback along the way.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.freefilesync</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/freefilesync</string>
+		<key>NAME</key>
+		<string>app_freefilesync</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>category</key>
+			<string>Utilities</string>
+			<key>description</key>
+			<string>FreeFileSync is a free Open Source software that helps you synchronize files and synchronize folders for Windows, Linux and Mac OS X. It is designed to save your time setting up and running backup jobs while having nice visual feedback along the way.</string>
+			<key>developer</key>
+			<string>Zenju</string>
+			<key>display_name</key>
+			<string>FreeFileSync</string>
 			<key>localized_strings</key>
 			<dict>
 				<key>de</key>
@@ -37,39 +41,33 @@ to support a different naming convention for munki and German as a default langu
 				<key>fallback_locale</key>
 				<string>en</string>
 			</dict>
-            <key>developer</key>
-            <string>Zenju</string>
-            <key>display_name</key>
-            <string>FreeFileSync</string>
-            <key>name</key>
-            <string>%NAME%</string>
-	    <key>minimum_os_version</key>
-	    <string>10.8.0</string>
-            <key>unattended_install</key>
-            <true/>
-            <key>unattended_uninstall</key>
-            <true/>
-            <key>uninstallable</key>
-            <true/>
-        </dict>
-    </dict>
-    <key>MinimumVersion</key>
-    <string>0.4.3</string>
-    <key>ParentRecipe</key>
-    <string>com.github.dataJAR-recipes.munki.freefilesync</string>
-    <key>Process</key>
-    <array>
-        <dict>
-            <key>Processor</key>
-            <string>MunkiImporter</string>
-            <key>Arguments</key>
-            <dict>
-                <key>pkg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
-                <key>repo_subdirectory</key>
-                <string>%MUNKI_REPO_SUBDIR%</string>
-            </dict>
-        </dict>
-    </array>
+			<key>minimum_os_version</key>
+			<string>10.8.0</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+			<key>uninstallable</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.3</string>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.pkg.freefilesync</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>repo_subdirectory</key>
+				<string>%MUNKI_REPO_SUBDIR%</string>
+			</dict>
+			<key>Processor</key>
+			<string>MunkiImporter</string>
+		</dict>
+	</array>
 </dict>
 </plist>
