@@ -62,8 +62,22 @@ to support a different naming convention for munki and German as a default langu
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>installs_item_paths</key>
+				<array>
+					<string>/Applications/FreeFileSync.app</string>
+					<string>/Applications/RealTimeSync.app</string>
+				</array>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<key>Processor</key>
+			<string>MunkiInstallsItemsCreator</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
 				<key>pkg_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
+				<string>%pkg_path%</string>
 				<key>repo_subdirectory</key>
 				<string>%MUNKI_REPO_SUBDIR%</string>
 			</dict>
