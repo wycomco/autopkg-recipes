@@ -65,7 +65,6 @@ to support a different naming convention for munki and German as a default langu
             <key>Arguments</key>
             <dict>
                 <key>pkg_path</key>
-				<!--- <string>%pkg_path%</string> --->
                 <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
                 <key>repo_subdirectory</key>
                 <string>%MUNKI_REPO_SUBDIR%</string>
