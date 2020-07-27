@@ -76,6 +76,8 @@ to support a different naming convention for munki and German as a default langu
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>force_munkiimport</key>
+				<true/>
 				<key>pkg_path</key>
 				<string>%pkg_path%</string>
 				<key>repo_subdirectory</key>
