@@ -62,18 +62,14 @@ to support a different naming convention for munki and German as a default langu
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>faux_root</key>
+				<string>%RECIPE_CACHE_DIR%/installer_payload</string>
 				<key>installs_item_paths</key>
 				<array>
 					<string>/Applications/FreeFileSync.app</string>
-					<string>/Applications/RealTimeSync.app</string>
 				</array>
 				<key>version_comparison_key</key>
-				<dict>
-					<key>/Applications/FreeFileSync.app</key>
-					<string>CFBundleShortVersionString</string>
-					<key>/Applications/RealTimeSync.app</key>
-					<string>CFBundleShortVersionString</string>
-				</dict>
+				<string>CFBundleShortVersionString</string>
 			</dict>
 			<key>Processor</key>
 			<string>MunkiInstallsItemsCreator</string>
@@ -81,8 +77,6 @@ to support a different naming convention for munki and German as a default langu
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>force_munkiimport</key>
-				<true/>
 				<key>pkg_path</key>
 				<string>%pkg_path%</string>
 				<key>repo_subdirectory</key>
