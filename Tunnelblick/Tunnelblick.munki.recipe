@@ -54,6 +54,10 @@ This recipe is based on com.github.homebysix.munki.Tunnelblick and customized by
 
 # secure configurations
 /Applications/Tunnelblick.app/Contents/Resources/installer 16
+
+# disable auto update
+defaults write "/Library/Application Support/Tunnelblick/forced-preferences" updateCheckAutomatically FALSE
+chmod 644 "/Library/Application Support/Tunnelblick/forced-preferences.plist"
 			</string>
 			<key>unattended_install</key>
 			<true/>
