@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v1.0.5 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of Signal and imports it into Munki.
+
+This recipe is based on com.github.jaharmi.munki.Signal and customized by wycomco (http://www.wycomco.de)
+to support a different naming convention for munki and German as a default language.</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.munki.Signal</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/signal</string>
+		<key>NAME</key>
+		<string>Signal</string>
+		<key>MUNKI_PKGINFO_NAME</key>
+		<string>app_signal</string>
+		<key>MUNKI_PKGINFO_DISPLAYNAME</key>
+		<string>Signal Desktop</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>category</key>
+			<string>Social Media</string>
+            <key>description</key>
+            <string>Signal is a cross-platform encrypted messaging service developed by the Signal Foundation and Signal Messenger LLC. First and foremost known for its data economy and end-to-end encryption, it is consistently recommended by security experts and privacy organizations (source: Wikipedia).</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Soziale Netze</string>
+					<key>description</key>
+					<string>Signal ist ein freier, verschlüsselnder Messenger, der von der gemeinnützigen Signal-Stiftung entwickelt wird. Er ist vor allem für seine Datensparsamkeit und Ende-zu-Ende-Verschlüsselung bekannt und wird daher immer wieder von Sicherheitsexperten und Datenschutzorganisationen empfohlen. (Quelle: Wikipedia)</string>
+				</dict>
+			</dict>
+			<key>developer</key>
+			<string>RIDDLE QUIET VENTURES, LLC</string>
+			<key>display_name</key>
+			<string>%MUNKI_PKGINFO_DISPLAYNAME%</string>
+			<key>name</key>
+			<string>%MUNKI_PKGINFO_NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.jaharmi.munki.Signal</string>
+</dict>
+</plist>
