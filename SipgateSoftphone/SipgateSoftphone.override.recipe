@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Custom override for "Munki import the latest sipgate softphone after the check for dmg and app integrity, and after download."</string>
+	<key>Identifier</key>
+	<string>com.github.wycomco.override.SipgateSoftphone</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>generic/apps/sipgate</string>
+		<key>NAME</key>
+		<string>app_sipgate-softphone</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>generic</string>
+			</array>
+			<key>category</key>
+			<string>Utilities</string>
+			<key>description</key>
+			<string>Place calls not only from your phone or mobile also now from any computer – with the sipgate Softphone.</string>
+			<key>developer</key>
+			<string>sipgate GmbH</string>
+			<key>display_name</key>
+			<string>sipgate Softphone</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Dienstprogramme</string>
+					<key>description</key>
+					<string>Telefonieren Sie nicht nur mit Telefon und Handy, sondern jetzt auch an jedem Computer – mit dem sipgate Softphone.</string>
+				</dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+			</dict>
+			<key>minimum_os_version</key>
+			<string>10.10</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.wycomco.munki.sipgate-softphone</string>
+</dict>
+</plist>
