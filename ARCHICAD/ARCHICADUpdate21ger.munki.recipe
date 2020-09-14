@@ -88,6 +88,6 @@ Team members without the update will no longer be able to open project files!
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.wycomco.ARCHICADUpdate.munki</string>
+	<string>com.github.wycomco.munki.ARCHICADUpdate</string>
 </dict>
 </plist>
