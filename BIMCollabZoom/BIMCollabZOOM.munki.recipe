@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Munki process and import recipe for Kubus' BIMcollab ZOOM.</string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.bimcollab_zoom.override</string>
+	<string>com.github.wycomco.override.bimcollab_zoom</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -63,6 +63,6 @@ rm -rf "/Applications/BIMcollab ZOOM/"
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.wycomco.bimcollab_zoom.munki</string>
+	<string>com.github.wycomco.munki.bimcollab_zoom</string>
 </dict>
 </plist>
