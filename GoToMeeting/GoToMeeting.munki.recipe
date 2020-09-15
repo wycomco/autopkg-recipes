@@ -93,8 +93,8 @@ exit $?
 				<dict>
 					<key>postinstall_script</key>
 					<string>#!/bin/bash
-NAME=“%NAME%”
-build=“%build%”
+NAME="%NAME%"
+build="%build%"
 
 rm -rf "$3/Applications/GoToMeeting.app"
 ln -s "$3/Applications/$NAME ($build).app" "$3/Applications/GoToMeeting.app"
