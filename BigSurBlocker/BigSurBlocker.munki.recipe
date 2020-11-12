@@ -52,6 +52,10 @@ to support a different naming convention for munki and German as a default langu
 			<string>10.15.99</string>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
