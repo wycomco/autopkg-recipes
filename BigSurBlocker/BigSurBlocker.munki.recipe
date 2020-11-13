@@ -56,6 +56,23 @@ to support a different naming convention for munki and German as a default langu
 			<true/>
 			<key>unattended_uninstall</key>
 			<true/>
+			<key>uninstall_method</key>
+			<string>uninstall_script</string>
+			<key>uninstall_script</key>
+			<string>#!/bin/bash
+
+current_user_uid=$( echo "show State:/Users/ConsoleUser" | scutil | awk '/UID :/ &amp;&amp; ! /loginwindow/ { print $3 }' )
+
+launchd_item_path="/Library/LaunchAgents/com.hjuutilainen.bigsurblocker.plist"
+launchctl bootout gui/${current_user_uid} "${launchd_item_path}"
+
+rm -f /Library/LaunchAgents/com.hjuutilainen.bigsurblocker.plist
+rm -f /usr/local/bin/bigsurblocker
+
+pkgutil --forget com.hjuutilainen.bigsurblocker
+
+exit 0
+</string>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
