@@ -323,7 +323,7 @@ This recipe is based on com.github.autopkg.munki.munkitools5 and customized by w
                     <key>icon_name</key>
                     <string>%MUNKI_ICON%</string>
                     <key>minimum_os_version</key>
-                    <string>10.10.0</string>
+                    <string>10.11.0</string>
                     <key>name</key>
                     <string>%MUNKITOOLS_CORE_NAME%</string>
                     <key>requires</key>
@@ -362,7 +362,7 @@ This recipe is based on com.github.autopkg.munki.munkitools5 and customized by w
                     <key>icon_name</key>
                     <string>%MUNKI_ICON%</string>
                     <key>minimum_os_version</key>
-                    <string>10.10.0</string>
+                    <string>10.11.0</string>
                     <key>name</key>
                     <string>%MUNKITOOLS_ADMIN_NAME%</string>
                     <key>unattended_install</key>
@@ -401,7 +401,7 @@ This recipe is based on com.github.autopkg.munki.munkitools5 and customized by w
                     <key>icon_name</key>
                     <string>%MUNKI_ICON%</string>
                     <key>minimum_os_version</key>
-                    <string>10.10.0</string>
+                    <string>10.11.0</string>
                     <key>name</key>
                     <string>%MUNKITOOLS_APP_NAME%</string>
                     <key>requires</key>
@@ -441,7 +441,7 @@ This recipe is based on com.github.autopkg.munki.munkitools5 and customized by w
                     <key>icon_name</key>
                     <string>%MUNKI_ICON%</string>
                     <key>minimum_os_version</key>
-                    <string>10.10.0</string>
+                    <string>10.11.0</string>
                     <key>name</key>
                     <string>%MUNKITOOLS_APP_USAGE_NAME%</string>
                     <key>requires</key>
@@ -481,7 +481,7 @@ This recipe is based on com.github.autopkg.munki.munkitools5 and customized by w
                     <key>icon_name</key>
                     <string>%MUNKI_ICON%</string>
                     <key>minimum_os_version</key>
-                    <string>10.10.0</string>
+                    <string>10.11.0</string>
                     <key>name</key>
                     <string>%MUNKITOOLS_LAUNCHD_NAME%</string>
                 </dict>
