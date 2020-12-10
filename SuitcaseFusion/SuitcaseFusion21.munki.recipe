@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads the current release version of Suitcase Fusion 21 and imports into Munki. This recipe is based on com.github.dataJAR-recipes.munki.Suitcase Fusion 21 and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+    <key>Identifier</key>
+    <string>com.github.wycomco.munki.SuitcaseFusion21</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>app_suitcasefusion21</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>generic/apps/extensis/suitcasefusion</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>generic</string>
+            </array>
+           	<key>category</key>
+			<string>Graphics and design</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Grafik und Design</string>
+					<key>description</key>
+					<string>Verwalten Sie alle Ihre Zeichensätze aus einer Quelle, egal wie viele Sie haben - einschließlich Ihrer Systemzeichensätze, gekaufter Zeichensätze, mit Adobe Typekit synchronisierter Zeichensätze, Google-Zeichensätze und mehr. Schalten Sie sie nach Bedarf ein und aus. Suitcase Fusion bietet Ihnen die beste Möglichkeit, sie in Ihrem vorhandenen Workflow zu organisieren, zu finden, anzuzeigen und zu verwenden.</string>
+				</dict>
+			</dict>
+			<key>developer</key>
+			<string>Extensis</string>
+            <key>description</key>
+            <string>Manage all of your fonts from one source, no matter how many you have—including your system fonts, purchased fonts, fonts synced from Adobe Typekit, Google Fonts, and more. Turn them on and off as you need. Suitcase Fusion offers you the best way to organize, find, view, and use them within your existing workflow.</string>
+            <key>display_name</key>
+            <string>Suitcase Fusion 21</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+        </dict>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.3.1</string>
+    <key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.munki.Suitcase Fusion 21</string>
+</dict>
+</plist>
