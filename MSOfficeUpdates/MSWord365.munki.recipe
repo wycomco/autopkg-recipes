@@ -19,6 +19,8 @@
         <string>app_word365</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>generic/apps/microsoft/office365</string>
+        <key>MINIMUM_OS_VERSION</key>
+        <string>10.14.0</string>
         <key>pkginfo</key>
         <dict>
             <key>blocking_applications</key>
