@@ -14,7 +14,7 @@ https://munkibuilds.org/munkitools2-latest.pkg
 
 This recipe is based on com.github.autopkg.munki.munkitools2 and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.munkitools2</string>
+	<string>com.github.wycomco.override.munkitools2</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKITOOLS_ADMIN_DESCRIPTION</key>

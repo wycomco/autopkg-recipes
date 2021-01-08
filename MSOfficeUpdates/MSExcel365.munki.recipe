@@ -12,7 +12,7 @@
     This recipe is based on com.github.dataJAR-recipes.munki.Microsoft Excel 365 and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
 	</string>
     <key>Identifier</key>
-    <string>com.github.wycomco.munki.MSExcel365</string>
+    <string>com.github.wycomco.override.MSExcel365</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

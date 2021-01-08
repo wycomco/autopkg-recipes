@@ -35,7 +35,7 @@ MUNKI_ICON should be overridden with your icon name.
 This recipe is based on com.github.autopkg.munki.munkitools5 and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
 </string>
     <key>Identifier</key>
-    <string>com.github.autopkg.munki.munkitools5</string>
+    <string>com.github.autopkg.override.munkitools5</string>
     <key>Input</key>
     <dict>
         <key>INCLUDE_PRERELEASES</key>

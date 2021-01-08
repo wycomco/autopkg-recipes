@@ -21,7 +21,7 @@ default, 'latest'.
 
 This recipe is based on com.github.autopkg.munki.AdobeAcrobatProXUpdate and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.AdobeAcrobatProXUpdate</string>
+	<string>com.github.wycomco.override.AdobeAcrobatProXUpdate</string>
 	<key>Input</key>
 	<dict>
 		<key>MAJOR_VERSION</key>

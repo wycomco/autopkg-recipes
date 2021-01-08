@@ -7,7 +7,7 @@
       By default it will package all modules that are defined on the server. You can override the modules by defining them below in the modules array. This recipe is based on com.github.munkireport.autopkg.munki and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language. Additionally it sets the default inventory server for internal use.
     </string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.autopkg</string>
+	<string>com.github.wycomco.override.autopkg</string>
 	<key>Input</key>
 	<dict>
 		<key>BASEURL</key>

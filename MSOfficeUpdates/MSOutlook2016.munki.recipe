@@ -41,7 +41,7 @@ installcheck_script).
 This recipe is based on com.github.autopkg.munki.MSOutlook2016 and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
 </string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.MSOutlook2016</string>
+	<string>com.github.wycomco.override.MSOutlook2016</string>
 	<key>Input</key>
 	<dict>
 		<key>LOCALE_ID</key>

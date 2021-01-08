@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release version of Suitcase Fusion 21 and imports into Munki. This recipe is based on com.github.dataJAR-recipes.munki.Suitcase Fusion 21 and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
     <key>Identifier</key>
-    <string>com.github.wycomco.munki.SuitcaseFusion21</string>
+    <string>com.github.wycomco.override.SuitcaseFusion21</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

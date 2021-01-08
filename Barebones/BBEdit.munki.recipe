@@ -9,7 +9,7 @@ into Munki, adding a postinstall_script that installs the command-line tools.
 This recipe is based on com.github.autopkg.munki.bbedit and customized by wycomco (http://www.wycomco.de)
 to support a different naming convention for munki and German as a default language.</string>
     <key>Identifier</key>
-    <string>com.github.wycomco.munki.bbedit</string>
+    <string>com.github.wycomco.override.bbedit</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>

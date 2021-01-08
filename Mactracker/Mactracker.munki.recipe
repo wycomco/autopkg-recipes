@@ -10,7 +10,7 @@
     <key>ParentRecipe</key>
     <string>com.github.arubdesu.munki.Mactracker</string>
     <key>Identifier</key>
-    <string>com.github.wycomco.munki.mactracker</string>
+    <string>com.github.wycomco.override.mactracker</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

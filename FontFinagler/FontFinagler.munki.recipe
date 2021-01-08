@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Font Finagler and imports it into Munki. This recipe is based on com.github.homebysix.munki.FontFinagler and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.FontFinagler</string>
+	<string>com.github.wycomco.override.FontFinagler</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>

@@ -9,7 +9,7 @@ This recipe is based on com.github.jaharmi.munki.Spectacle and customized by wyc
 	<key>Description</key>
 	<string>Downloads the latest version of Spectacle and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.Spectacle</string>
+	<string>com.github.wycomco.override.Spectacle</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>

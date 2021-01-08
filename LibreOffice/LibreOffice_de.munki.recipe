@@ -8,7 +8,7 @@
 This recipe is based on com.github.sebtomasi.munki.LibreOfficeLangPack and customized by wycomco (http://www.wycomco.de)
 to support a different naming convention for munki and German as a default language.</string>
     <key>Identifier</key>
-    <string>com.github.wycomco.munki.LibreOffice_de</string>
+    <string>com.github.wycomco.override.LibreOffice_de</string>
     <key>Input</key>
     <dict>
     <key>LANGUAGE_CODE</key>
@@ -30,7 +30,7 @@ to support a different naming convention for munki and German as a default langu
                 <string>generic</string>
             </array>
             <key>description</key>
-            <string>LibreOffice is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, Calc, Impress, Draw, Math and Base.</string>
+            <string>LibreOffice is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, Calc, Impress, Draw, Math and Base. This is the German version.</string>
             <key>category</key>
             <string>%MUNKI_CATEGORY%</string>
             <key>developer</key>

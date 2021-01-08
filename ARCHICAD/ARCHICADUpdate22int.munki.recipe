@@ -12,7 +12,7 @@ RELEASE_TYPE = AC (for full version)
 INSTALL_DIR = /Applications/GRAPHISOFT/ARCHICAD 22 EN/
 </string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.ARCHICADUpdate22int</string>
+	<string>com.github.wycomco.override.ARCHICADUpdate22int</string>
 	<key>Input</key>
 	<dict>
 		<key>INSTALL_DIR</key>

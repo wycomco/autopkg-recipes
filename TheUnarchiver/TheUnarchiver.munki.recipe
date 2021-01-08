@@ -17,7 +17,7 @@ in the .download ParentRecipe.
 This recipe is based on com.github.autopkg.munki.TheUnarchiver and customized by wycomco (http://www.wycomco.de)
 to support a different naming convention for munki and German as a default language.</string>
     <key>Identifier</key>
-    <string>com.github.wycomco.munki.TheUnarchiver</string>
+    <string>com.github.wycomco.override.TheUnarchiver</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

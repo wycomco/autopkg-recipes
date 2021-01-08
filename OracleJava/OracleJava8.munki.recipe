@@ -19,7 +19,7 @@ the prefPane bundle, which has historically had consistent versioning.
 This recipe is based on com.github.autopkg.munki.OracleJava8 and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.
 </string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.OracleJava8</string>
+	<string>com.github.wycomco.override.OracleJava8</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>

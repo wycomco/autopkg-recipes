@@ -10,7 +10,7 @@ LibreOffice Fresh is the stable version with the most recent features. Users int
 
 This recipe is based on io.github.hjuutilainen.munki.LibreOffice and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.LibreOffice</string>
+	<string>com.github.wycomco.override.LibreOffice</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -40,7 +40,7 @@ This recipe is based on io.github.hjuutilainen.munki.LibreOffice and customized 
 					<key>category</key>
 					<string>Produktivität</string>
 					<key>description</key>
-					<string>LibreOffice ist eine freie Zusammenstellung gebräuchlicher Software für Arbeiten im Büro. Dazu gehören Programme zur Textverarbeitung, Tabellenkalkulation, Präsentation und zum Erstellen von Zeichnungen.</string>
+					<string>LibreOffice ist eine freie Zusammenstellung gebräuchlicher Software für Arbeiten im Büro. Dazu gehören Programme zur Textverarbeitung, Tabellenkalkulation, Präsentation und zum Erstellen von Zeichnungen. Dies ist die englische Version.</string>
 					<key>display_name</key>
 					<string>LibreOffice englisch</string>
 				</dict>

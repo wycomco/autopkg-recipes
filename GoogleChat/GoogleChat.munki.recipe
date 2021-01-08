@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the current release version of Google Chat and imports into Munki. This recipe is based on com.github.homebysix.munki.GoogleChat and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.GoogleChat</string>
+	<string>com.github.wycomco.override.GoogleChat</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_CATEGORY</key>

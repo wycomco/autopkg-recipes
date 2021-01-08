@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads Adobe Reader DC and imports it to Munki. This recipe is based on com.github.autopkg.munki.AdobeReaderDC and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.AdobeReaderDC</string>
+	<string>com.github.wycomco.override.AdobeReaderDC</string>
 	<key>Input</key>
 	<dict>
 		<key>LANGUAGE</key>

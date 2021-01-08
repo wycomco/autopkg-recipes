@@ -7,7 +7,7 @@
 	
 	This recipe is based on com.github.homebysix.munki.ParallelsDesktop and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.ParallelsDesktop13</string>
+	<string>com.github.wycomco.override.ParallelsDesktop13</string>
 	<key>Input</key>
 	<dict>
 		<key>MAJOR_VERSION</key>

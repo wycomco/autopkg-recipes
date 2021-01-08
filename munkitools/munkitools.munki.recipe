@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads and imports Munki tools. This recipe is based on com.github.autopkg.munki.munkitools and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
 	<key>Identifier</key>
-	<string>com.github.wycomco.munki.munkitools</string>
+	<string>com.github.wycomco.override.munkitools</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>

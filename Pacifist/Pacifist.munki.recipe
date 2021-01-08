@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest version of Pacifist and imports it into a Munki repo. This recipe is based on com.github.arubdesu.munki.Pacifist and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
     <key>Identifier</key>
-    <string>com.github.wycomco.munki.Pacifist</string>
+    <string>com.github.wycomco.override.Pacifist</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

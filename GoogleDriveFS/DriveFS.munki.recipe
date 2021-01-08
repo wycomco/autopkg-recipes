@@ -5,7 +5,7 @@
     <key>Description</key>
 	<string>Downloads the current release version of GrandPerspective and imports into Munki. This recipe is based on com.github.wardsparadox.munki.googledrivefs and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
     <key>Identifier</key>
-    <string>com.github.wycomco.munki.googledrivefs</string>
+    <string>com.github.wycomco.override.googledrivefs</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
