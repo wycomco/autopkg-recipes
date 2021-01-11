@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest Google Chrome disk image and imports into Munki. This recipe is based on com.github.wycomco.munki.googlechromeuniversal and customized by wycomco (http://www.wycomco.de) to support a different naming convention and German and English locales.</string>
+	<string>Downloads the latest Google Chrome disk image and imports into Munki. This recipe is based on com.github.autopkg.munki.google-chrome and customized by wycomco (http://www.wycomco.de) to support a different naming convention and German and English locales.</string>
 	<key>Identifier</key>
 	<string>com.github.wycomco.override.google-chrome</string>
 	<key>Input</key>
@@ -45,6 +45,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.wycomco.munki.googlechromeuniversal</string>
+	<string>com.github.autopkg.munki.google-chrome</string>
 </dict>
 </plist>
