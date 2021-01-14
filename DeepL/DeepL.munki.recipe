@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads the latest DeepL disk image and imports into Munki. This recipe is based on com.github.wycomco.munki.deepl and customized by wycomco (http://www.wycomco.de) to support a different naming convention for munki and German as a default language.</string>
+    <key>Identifier</key>
+    <string>com.github.wycomco.override.deepl</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>app_deepl</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>generic/apps/deepl</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>generic</string>
+            </array>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>description</key>
+			<string>Use the free DeepL Translator to translate your texts with the best machine translation available, powered by DeepL's world-leading neural network technology.</string>
+			<key>localized_strings</key>
+			<dict>
+				<key>fallback_locale</key>
+				<string>en</string>
+				<key>de</key>
+				<dict>
+					<key>category</key>
+					<string>Produktivität</string>
+					<key>description</key>
+					<string>Verwenden Sie den kostenlosen DeepL-Übersetzer, um Ihre Texte mit der besten verfügbaren maschinellen Übersetzung zu übersetzen, die auf der weltweit führenden neuronalen Netzwerktechnologie von DeepL basiert.</string>
+				</dict>
+			</dict>
+            <key>developer</key>
+            <string>DeepL GmbH</string>
+            <key>display_name</key>
+            <string>DeepL</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+            <key>unattended_uninstall</key>
+            <true/>
+        </dict>
+    </dict>
+    <key>ParentRecipe</key>
+    <string>com.github.wycomco.munki.deepl</string>
+</dict>
+</plist>
