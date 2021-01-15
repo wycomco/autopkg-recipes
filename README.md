@@ -1,7 +1,7 @@
 autopgk-recipes
 ===============
 
-Recipes for use with AutoPkg (https://github.com/autopkg/autopkg)
+wycomco Recipes for use with AutoPkg (https://github.com/autopkg/autopkg)
 
 Main target is to support wycomco's naming convention for munki repositories. Furthermore we are translating the munki relevant information to display German descriptions for our user base.
 
